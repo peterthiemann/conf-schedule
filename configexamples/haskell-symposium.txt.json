@@ -1,0 +1,332 @@
+{
+    "date": "Sep 13, 2012", 
+    "name": "Haskell Symposium", 
+    "sessions": [
+        {
+            "chair": "", 
+            "name": "Session 1", 
+            "start": "09:00", 
+            "stop": "09:50", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "The University of Kansas", 
+                            "name": "Andrew Farmer"
+                        }, 
+                        {
+                            "affiliation": "The University of Kansas", 
+                            "name": "Andy Gill"
+                        }, 
+                        {
+                            "affiliation": "The University of Kansas", 
+                            "name": "Ed Komp"
+                        }, 
+                        {
+                            "affiliation": "The University of Kansas", 
+                            "name": "Neil Sculthorpe"
+                        }
+                    ], 
+                    "name": "The HERMIT in the Machine: A Plugin for the Interactive Transformation of GHC Core Language Programs", 
+                    "start": "09:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Stanford University", 
+                            "name": "David Terei"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research", 
+                            "name": "Simon Marlow"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research", 
+                            "name": "Simon Peyton Jones"
+                        }, 
+                        {
+                            "affiliation": "Stanford University", 
+                            "name": "David Mazi\u00e8res"
+                        }
+                    ], 
+                    "name": "Safe Haskell", 
+                    "start": "09:25"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "09:50", 
+            "stop": "10:10", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 2", 
+            "start": "10:10", 
+            "stop": "11:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Ben Lippmeier"
+                        }, 
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Manuel M. T. Chakravarty"
+                        }, 
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Gabriele Keller"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research", 
+                            "name": "Simon Peyton Jones"
+                        }
+                    ], 
+                    "name": "Guiding Parallel Array Fusion with Indexed Types", 
+                    "start": "10:10"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Gabriele Keller"
+                        }, 
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Manuel M. T. Chakravarty"
+                        }, 
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Roman Leshchinskiy"
+                        }, 
+                        {
+                            "affiliation": "University of New South Wales", 
+                            "name": "Ben Lippmeier"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research", 
+                            "name": "Simon Peyton Jones"
+                        }
+                    ], 
+                    "name": "Vectorisation Avoidance", 
+                    "start": "10:35"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "11:00", 
+            "stop": "11:10", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 3", 
+            "start": "11:10", 
+            "stop": "12:25", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Utrecht University and Open Universiteit", 
+                            "name": "Johan Jeuring"
+                        }, 
+                        {
+                            "affiliation": "Chalmers University of Technology", 
+                            "name": "Patrik Jansson"
+                        }, 
+                        {
+                            "affiliation": "Chalmers University of Technology and University of Porto", 
+                            "name": "Cl\u00e1udio Amaral"
+                        }
+                    ], 
+                    "name": "Testing Type Class Laws", 
+                    "start": "11:10"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Chalmers University of Technology and University of Gothenburg", 
+                            "name": "Jonas Dureg\u00e5rd"
+                        }, 
+                        {
+                            "affiliation": "Chalmers University of Technology and University of Gothenburg", 
+                            "name": "Patrik Jansson"
+                        }, 
+                        {
+                            "affiliation": "Chalmers University of Technology and University of Gothenburg", 
+                            "name": "Meng Wang"
+                        }
+                    ], 
+                    "name": "Feat: Functional Enumeration of Algebraic Types", 
+                    "start": "11:35"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Chalmers University of Technology", 
+                            "name": "Koen Claessen"
+                        }
+                    ], 
+                    "name": "Shrinking and Showing Functions (Functional Pearl)", 
+                    "start": "12:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Lunch", 
+            "start": "12:25", 
+            "stop": "13:45", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 4", 
+            "start": "13:45", 
+            "stop": "15:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Oregon State University", 
+                            "name": "Wyatt Allen"
+                        }, 
+                        {
+                            "affiliation": "Oregon State University", 
+                            "name": "Martin Erwig"
+                        }
+                    ], 
+                    "name": "Surveyor: A DSEL for Representing and Analyzing Strongly Typed Surveys", 
+                    "start": "13:45"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Yale University", 
+                            "name": "Daniel Winograd-Cort"
+                        }, 
+                        {
+                            "affiliation": "Yale University", 
+                            "name": "Paul Hudak"
+                        }
+                    ], 
+                    "name": "Wormholes: Introducing Effects to FRP", 
+                    "start": "14:10"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Pennsylvania", 
+                            "name": "Brent A. Yorgey"
+                        }
+                    ], 
+                    "name": "Monoids: Theme and Variations (Functional Pearl)", 
+                    "start": "14:35"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "15:00", 
+            "stop": "15:25", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 5", 
+            "start": "15:25", 
+            "stop": "16:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Pennsylvania", 
+                            "name": "Richard A. Eisenberg"
+                        }, 
+                        {
+                            "affiliation": "University of Pennsylvania", 
+                            "name": "Stephanie Weirich"
+                        }
+                    ], 
+                    "name": "Dependently Typed Programming with Singletons", 
+                    "start": "15:25"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Universiteit Utrecht", 
+                            "name": "Wouter Swierstra"
+                        }
+                    ], 
+                    "name": "xmonad in Coq (Experience Report): Programming a Window Manager with a Proof Assistant", 
+                    "start": "15:50"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Portland State University", 
+                            "name": "Michael D. Adams"
+                        }, 
+                        {
+                            "affiliation": "Portland State University", 
+                            "name": "Thomas M. DuBuisson"
+                        }
+                    ], 
+                    "name": "Template Your Boilerplate: Using Template Haskell for Efficient Generic Programming", 
+                    "start": "16:05"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "16:30", 
+            "stop": "16:40", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 6", 
+            "start": "16:40", 
+            "stop": "17:05", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Marburg", 
+                            "name": "Sebastian Erdweg"
+                        }, 
+                        {
+                            "affiliation": "University of Marburg", 
+                            "name": "Felix Rieger"
+                        }, 
+                        {
+                            "affiliation": "University of Marburg", 
+                            "name": "Tillmann Rendel"
+                        }, 
+                        {
+                            "affiliation": "University of Marburg", 
+                            "name": "Klaus Ostermann"
+                        }
+                    ], 
+                    "name": "Layout-sensitive Language Extensibility with SugarHaskell", 
+                    "start": "16:40"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Future of Haskell discussion", 
+            "start": "17:05", 
+            "stop": "17:50", 
+            "talks": []
+        }
+    ]
+}

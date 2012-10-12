@@ -1,0 +1,144 @@
+Event: ICFP day #2
+Date: Sep 11, 2012
+
+
+Session: Keynote
+Chair: Robby Findler (Northwestern University)
+Start: 9:00
+
+Talk: High Performance Embedded Domain Specific Languages
+Start: 9:00
+Author: Kunle Olukotun
+Affiliation: Stanford University
+
+Session: Break
+Start: 10:00
+
+Session: Infinity
+Chair: Graham Hutton
+Start: 10:20
+
+Talk: Pure Type Systems with Corecursion on Streams
+Start: 10:20
+Author: Paula Severi
+Author: Fer-Jan de Vries
+Affiliation: University of Leicester
+
+Talk: On the Complexity of Equivalence of Specifications of Infinite Objects
+Start: 10:40
+Author: Jörg Endrullis
+Author: Dimitri Hendriks
+Author: Rena Bakhshi
+Affiliation: VU University Amsterdam
+
+Session: Break
+Start: 11:00
+
+Session: Compilers
+Chair: Andreas Rossberg
+Start: 11:20
+
+Talk: Experience Report: a Do-It-Yourself High-Assurance Compiler
+Start: 11:20
+Author: Lee Pike
+Affiliation: Galois, Inc.
+Author: Nis Wegmann
+Affiliation: University of Copenhagen
+Author: Sebastian Niller
+Affiliation: Unaffiliated
+Author: Alwyn Goodloe
+Affiliation: NASA
+
+Talk: Equality proofs and deferred type errors (A compiler pearl)
+Start: 11:40
+Author: Dimitrios Vytiniotis
+Author: Simon Peyton Jones
+Affiliation: Microsoft Research Cambridge
+Author: José Pedro Magalhães
+Affiliation: Utrecht University
+
+Session: Lunch/Posters
+Start: 12:00
+
+Session: Contest Report
+Start: 14:00
+
+Session: Break
+Start: 14:40
+
+Session: Security
+Chair: Eijiro Sumii
+Start: 15:00
+
+Talk: Efficient Lookup-Table Protocol in Secure Multiparty Computation
+Start: 15:00
+Author: John Launchbury
+Author: Andy Adams-Moran
+Author: Iavor Diatchki
+Affiliation: Galois, Inc.
+
+Talk:  Addressing Covert Termination and Timing Channels in Concurrent Information Flow Systems
+Start: 15:20
+Author: Deian Stefan
+Affiliation: Stanford University
+Author: Alejandro Russo
+Author: Pablo Buiras
+Affiliation: Chalmers University
+Author: Amit Levy
+Author: John C. Mitchell
+Author: David Mazieres
+Affiliation: Stanford University
+
+Session: Break
+Start: 15:40
+
+Session: FP in Biology
+Chair: Zhenjiang Hu
+Start: 16:00
+
+Talk: Sneaking Around concatMap -- Efficient Combinators for Dynamic Programming
+Start: 16:00
+Author: Christian Höner zu Siederdissen
+Affiliation: University of Vienna, Vienna, Austria
+
+Talk: Experience Report: Haskell in Computational Biology
+Start: 16:20
+Author: Noah M. Daniels
+Author: Andrew Gallant
+Author: Norman Ramsey
+Affiliation: Tufts University
+
+Session: Break
+Start: 16:40
+
+Session: Parallelism
+Chair: Simon Marlow
+Start: 17:00
+
+Talk: A Meta-Scheduler for the Par-Monad: Composable Scheduling for the Heterogeneous Cloud
+Start: 17:00
+Author: Adam Foltzer
+Author: Abhishek Kulkarni
+Author: Rebecca Swords
+Author: Sajith Sasidharan
+Author: Eric Jiang
+Author: Ryan R. Newton
+Affiliation: Indiana University
+
+Talk: Nested Data-Parallelism on the GPU
+Start: 17:20
+Author: Lars Bergstrom
+Author: John Reppy
+Affiliation: University of Chicago
+
+Talk: Work Efficient Higher Order Vectorisation
+Start: 17:40
+Author: Ben Lippmeier
+Author: Manuel M. T. Chakravarty
+Author: Gabriele Keller
+Author: Roman Leshchinskiy
+Affiliation: University of New South Wales
+Author: Simon Peyton Jones
+Affiliation: Microsoft Research Ltd
+
+End: 18:00

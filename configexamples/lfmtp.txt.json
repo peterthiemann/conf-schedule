@@ -1,0 +1,175 @@
+{
+    "date": "Sep 9, 2012", 
+    "name": "LFMTP", 
+    "sessions": [
+        {
+            "chair": "", 
+            "name": "SESSION 1", 
+            "start": "09:00", 
+            "stop": "10:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "McGill University", 
+                            "name": "Brigitte Pientka"
+                        }
+                    ], 
+                    "name": "Beluga^mu: Programming proofs in context", 
+                    "start": "09:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Milan", 
+                            "name": "Alberto Momigliano"
+                        }
+                    ], 
+                    "name": "A supposedly fun thing I may have to do again: A HOAS encoding of Howe's method", 
+                    "start": "10:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "BREAK", 
+            "start": "10:30", 
+            "stop": "11:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "SESSION 2", 
+            "start": "11:00", 
+            "stop": "12:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "ITU Copenhagen", 
+                            "name": "Nicolas Pouillard"
+                        }
+                    ], 
+                    "name": "From de Bruijn to nowadays: The evolution of libraries for binding representation", 
+                    "start": "11:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Udine", 
+                            "name": "Furio Honsell"
+                        }, 
+                        {
+                            "affiliation": "University of Udine", 
+                            "name": "Marina Lenisa"
+                        }, 
+                        {
+                            "affiliation": "INRIA-Sophia Antipolis M\u00e9diterran\u00e9e", 
+                            "name": "Luigi Liquori"
+                        }, 
+                        {
+                            "affiliation": "INRIA-Sophia Antipolis M\u00e9diterran\u00e9e", 
+                            "name": "Petar Maksimovic"
+                        }, 
+                        {
+                            "affiliation": "University of Udien", 
+                            "name": "Ivan Scagnetto"
+                        }
+                    ], 
+                    "name": "LFP \u2013 A Logical Framework with External Predicates", 
+                    "start": "12:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "LUNCH", 
+            "start": "12:30", 
+            "stop": "14:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "SESSION 3", 
+            "start": "14:00", 
+            "stop": "15:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Robert J. Simmons"
+                        }
+                    ], 
+                    "name": "A Walk in the Substructural Park", 
+                    "start": "14:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Iliano Cervesato"
+                        }, 
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Frank Pfenning"
+                        }, 
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Jorge Luis Sacchini"
+                        }, 
+                        {
+                            "affiliation": "ITU Copenhagen", 
+                            "name": "Carsten Sch\u00fcrmann"
+                        }, 
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Robert J. Simmons"
+                        }
+                    ], 
+                    "name": "Trace Matching in a Concurrent Logical Framework", 
+                    "start": "15:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "BREAK", 
+            "start": "15:30", 
+            "stop": "16:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "SESSION 4", 
+            "start": "16:00", 
+            "stop": "17:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Chris Martens"
+                        }, 
+                        {
+                            "affiliation": "Carnegie Mellon University", 
+                            "name": "Karl Crary"
+                        }
+                    ], 
+                    "name": "LF in LF: Mechanizing the Metatheory of LF in Twelf", 
+                    "start": "16:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Pennsylvania", 
+                            "name": "Stephanie Weirich"
+                        }
+                    ], 
+                    "name": "A POPLmark retrospective: Using proof assistants in programming language research", 
+                    "start": "16:30"
+                }
+            ]
+        }
+    ]
+}

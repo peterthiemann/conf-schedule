@@ -1,0 +1,59 @@
+Event: ICFP day #1
+Date: Sep 10, 2012
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+Session: Welcome
+Start: 08:45
+
+Session: Keynote
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Agda-curious? An Exploration of Programming with Dependent Types
+Start: 09:00
+Author: Conor McBride
+Affiliation: U. Strathclyde
+
+Session: Break
+Start: 10:00
+
+Session: Automated Theorem Proving
+Chair: Stephanie Weirich
+Start: 10:20
+
+Talk: Verified Heap Theorem Prover by Paramodulation
+Start: 10:20
+Author: Gordon Stewart
+Author: Lennart Beringer
+Author: Andrew W. Appel
+Affiliation: Princeton University
+
+Talk: Formal Verification of Monad Transformers
+Start: 10:40
+Author: Brian Huffman
+Affiliation: T.U. Munich
+
+Session: Break
+Start: 11:00
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:00
+

@@ -1,0 +1,122 @@
+Event: ICFP day #3
+Date: Sep 12, 2012
+
+
+Session: Keynote
+Chair: Robby Findler (Northwestern University)
+Start: 9:00
+
+Talk: Tales from the Jungle
+Start: 9:00
+Author: Peter Sewell
+Affiliation: University of Cambridge
+
+Session: Break
+Start: 10:00
+
+Session: Curry-Howard and Compatibility Checking
+Chair: Amal Ahmed
+Start: 10:20
+
+Talk: Propositions as Sessions
+Start: 10:20
+Author: Philip Wadler
+Affiliation: University of Edinburgh
+
+Talk: Typing unmarshalling without marshalling types
+Start: 10:40
+Author: Grégoire Henry
+Affiliation: Univ Paris Diderot
+Author: Michel Mauny
+Affiliation: ENSTA-ParisTech
+Author: Emmanuel Chailloux
+Author: Pascal Manoury
+Affiliation: Université Pierre et Marie Curie
+
+Session: Break
+Start: 11:00
+
+Session: DSL Support
+Chair: Satnam Singh
+Start: 11:20
+
+Talk: Deconstraining DSLs
+Start: 11:20
+Author: Will Jones
+Author: Tony Field
+Author: Tristan Allwood
+Affiliation: Department of Computing, Imperial College London
+
+Talk: Explicitly Heterogeneous Metaprogramming with MetaHaskell
+Start: 11:40
+Author: Geoffrey Mainland
+Affiliation: Microsoft Research
+
+Talk: A generic abstract syntax model for embedded languages
+Start: 12:00
+Author: Emil Axelsson
+Affiliation: Chalmers University of Technology
+
+Session: Lunch
+Start: 12:20
+
+Session: SRC Poster Presentations
+Start: 14:00
+
+Session: Break
+Start: 15:40
+
+Session: Analysis
+Chair: Peter Thiemann
+Start: 16:00
+
+Talk: Automatic Amortised Analysis of Dynamic Memory Allocation for Lazy Functional Programs
+Start: 16:00
+Author: Hugo Simões
+Author: Pedro Vasconcelos
+Author: Mário Florido
+Affiliation: Universidade do Porto
+Author: Steffen Jost
+Affiliation: Ludwig-Maximilians-Universität Munich
+Author: Kevin Hammond
+Affiliation: University of St Andrews
+
+Talk: Introspective Pushdown Analysis of Higher-order Programs
+Start: 16:20
+Author: Christopher Earl
+Affiliation: University of Utah
+Author: Ilya Sergey
+Affiliation: KU Leuven
+Author: Matthew Might
+Affiliation: University of Utah
+Author: David Van Horn
+Affiliation: Northeastern University
+
+Session: Break
+Start: 16:40
+
+Session: Higher-order Model Checking and Slicing
+Chair: Colin Runciman
+Start: 17:00
+
+Talk: A Traversal-based Algorithm for Higher-Order Model Checking
+Start: 17:00
+Author: Robin P. Neatherway
+Author: C.-H. Luke Ong
+Author: Steven J. Ramsay
+Affiliation: University of Oxford
+
+Talk: Functional Programs that Explain their Work
+Start: 17:20
+Author: Roly Perera
+Author: Umut A. Acar
+Affiliation: Max Planck Institute for Software Systems
+Author: James Cheney
+Affiliation: University of Edinburgh
+Author: Paul Blain Levy
+Affiliation: University of Birmingham
+
+Session: Closing
+Start: 17:40
+
+End: 18:00

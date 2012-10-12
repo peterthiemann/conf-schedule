@@ -1,0 +1,79 @@
+Event: XLDI
+Date: Sep 9, 2012
+
+Session: Welcome
+Start: 8:45
+
+Session: Optimization
+Chair: James Cheney
+
+Start: 9:00
+
+Talk: Algebraic Run-Time Optimization for Multiset Programming
+Start: 9:00
+Author: Fritz Henglein
+Affiliation: University of Copenhagen
+
+Talk: Enabling Operator Reordering in Data Flow Programs Through Static Code Analysis
+Start: 10:00
+Author: Fabian Hueske
+Author:  Aljoscha Krettek
+Author: Kostas Tzoumas
+Affiliation: Technische Universitat Berlin, Germany
+
+Session: Break
+Start: 10:30
+
+Session: Cross-Model Programming Abstractions
+Chair: TBA
+Start: 11:00
+
+Talk: Logic Programming for Software Defined Networks
+Start: 11:00
+Author: Naga Praveen Katta
+Author: Jennifer Rexford
+Author: David Walker
+Affiliation: Princeton University
+
+Talk: Typing Massive JSON Datasets
+Start: 11:30
+Author: Dario Colazzo
+Affiliation: Universite Paris Sud - INRIA
+Author: Giorgio Ghelli
+Affiliation: Universita di Pisa
+Author: Carlo Sartiani
+Affiliation: Universita della Basilicata
+
+Talk: Haskell DSLs for Interactive Web Services
+Start: 12:00
+Author: Andrew Farmer
+Author: Andy Gill
+Affiliation: University of Kansas
+
+Session: Lunch
+Start: 12:30
+
+Session: Cross-Model Challenges and Languages
+Chair: Torsten Grust
+Start: 14:00
+
+Talk: Challenges in Reducing the Pain of Feature Engineering for Trained Systems
+Start: 14:00
+Author: Christopher Re
+Affiliation: University of Wisconsin
+
+Talk: K3: Language Design for Building Multi-Platform, Domain-Specific Runtimes
+Start: 15:00
+Author: Panchapakesan Shyamshankar
+Author: Zachary Palmer
+Author: Yanif Ahmad
+Affiliation: Johns Hopkins University
+
+Session: Break
+Start: 15:30
+
+Session: Discussion/business meeting
+Chair: James Cheney & Torsten Grust
+Start: 16:00 
+
+End: 16:15

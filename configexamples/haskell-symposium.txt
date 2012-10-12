@@ -1,0 +1,151 @@
+Event: Haskell Symposium
+Date: Sep 13, 2012
+
+-- regexp: talk start (author+ affiliation)+
+
+Session: Session 1
+Chair: Colin Runciman
+Start: 09:00
+
+Talk: The HERMIT in the Machine: A Plugin for the Interactive Transformation of GHC Core Language Programs
+Start: 09:00
+Author: Andrew Farmer
+Author: Andy Gill
+Author: Ed Komp
+Author: Neil Sculthorpe
+Affiliation: The University of Kansas
+
+Talk: Safe Haskell
+Start: 09:25
+Author: David Terei
+Affiliation: Stanford University
+Author: Simon Marlow
+Affiliation: Microsoft Research
+Author: Simon Peyton Jones
+Affiliation: Microsoft Research
+Author: David Mazières
+Affiliation: Stanford University
+
+Session: Break
+Start: 09:50
+
+Session: Session 2
+Chair: Iavor Diatchki
+Start: 10:10
+
+Talk: Guiding Parallel Array Fusion with Indexed Types
+Start: 10:10
+Author: Ben Lippmeier
+Author: Manuel M. T. Chakravarty
+Author: Gabriele Keller
+Affiliation: University of New South Wales
+Author: Simon Peyton Jones
+Affiliation: Microsoft Research
+
+Talk: Vectorisation Avoidance
+Start: 10:35
+Author: Gabriele Keller
+Author: Manuel M. T. Chakravarty
+Affiliation: University of New South Wales
+Author: Roman Leshchinskiy
+Affiliation: 
+Author: Ben Lippmeier
+Affiliation: University of New South Wales
+Author: Simon Peyton Jones
+Affiliation: Microsoft Research
+
+Session: Break
+Start: 11:00
+
+Session: Session 3
+Chair: Brent A. Yorgey
+Start: 11:10
+
+Talk: Testing Type Class Laws
+Start: 11:10
+Author: Johan Jeuring
+Affiliation: Utrecht University and Open Universiteit
+Author: Patrik Jansson
+Affiliation: Chalmers University of Technology
+Author: Cláudio Amaral
+Affiliation: Chalmers University of Technology and University of Porto
+
+Talk: Feat: Functional Enumeration of Algebraic Types
+Start: 11:35
+Author: Jonas Duregård
+Author: Patrik Jansson
+Author: Meng Wang
+Affiliation: Chalmers University of Technology and University of Gothenburg
+
+Talk: Shrinking and Showing Functions (Functional Pearl)
+Start: 12:00
+Author: Koen Claessen
+Affiliation: Chalmers University of Technology
+
+Session: Lunch
+Start: 12:25
+
+Session: Session 4
+Chair: Simon Peyton Jones
+Start: 13:45
+
+Talk: Surveyor: A DSEL for Representing and Analyzing Strongly Typed Surveys
+Start: 13:45
+Author: Wyatt Allen 
+Author: Martin Erwig
+Affiliation: Oregon State University
+
+Talk: Wormholes: Introducing Effects to FRP
+Start: 14:10
+Author: Daniel Winograd-Cort
+Author: Paul Hudak
+Affiliation: Yale University
+
+Talk: Monoids: Theme and Variations (Functional Pearl)
+Start: 14:35
+Author: Brent A. Yorgey
+Affiliation: University of Pennsylvania
+
+Session: Break
+Start: 15:00
+
+Session: Session 5
+Chair: Nils Anders Danielsson
+Start: 15:25
+
+Talk: Dependently Typed Programming with Singletons
+Start: 15:25
+Author: Richard A. Eisenberg
+Author: Stephanie Weirich
+Affiliation: University of Pennsylvania
+
+Talk: xmonad in Coq (Experience Report): Programming a Window Manager with a Proof Assistant
+Start: 15:50
+Author: Wouter Swierstra
+Affiliation: Universiteit Utrecht
+
+Talk: Template Your Boilerplate: Using Template Haskell for Efficient Generic Programming
+Start: 16:05
+Author: Michael D. Adams 
+Author: Thomas M. DuBuisson
+Affiliation: Portland State University
+
+Session: Break
+Start: 16:30
+
+Session: Session 6
+Chair: Zhenjiang Hu
+Start: 16:40
+
+Talk: Layout-sensitive Language Extensibility with SugarHaskell
+Start: 16:40
+Author: Sebastian Erdweg
+Author: Felix Rieger
+Author: Tillmann Rendel
+Author: Klaus Ostermann
+Affiliation: University of Marburg
+
+Session: Future of Haskell discussion
+Start: 17:05
+
+End: 17:50

@@ -1,0 +1,145 @@
+Event: Erlang Workshop
+Date: Sep 14, 2012
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session | talk)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+Session: Keynote
+Chair: Scott Lystig Fritchie (Basho Technologies)
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: TBA
+Start: 09:00
+Author: Kresten Krab Thorup
+Affiliation: Trifork A/S
+
+Session: Intelligent Agents
+Chair: Erik Stenman (Klarna AB)
+Start: 10:00
+
+Talk: Erlang as an Implementation Platform for BDI Languages
+Start: 10:00
+Author: Alvaro Fernandez Día
+
+Author: Clara Benac Earle
+Author: Lars-Åke Fredlun
+
+Affiliation: Babel group, DLSIIS, Facultad de Inform´atica, Universida Polit´ecnica de Madrid
+
+
+Session: Break
+Start: 10:30
+
+Session: Implementation
+Chair: Kenneth Lundin (Ericsson AB)
+Start: 11:00
+
+Talk: On Preserving Term Sharing in the Erlang Virtual Machine
+Start: 11:00
+Author: Nikolaos Papaspyrou
+Author: Konstantinos Sagonas
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
+Affiliation: Department of Information Technology, Uppsala University, Sweden
+
+Talk: ErLLVM: An LLVM Backend for Erlang
+Start: 11:30
+Author: Kostis Sagonas
+Author: Chris Stavrakakis
+Author: Yiannis Tsiouris
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
+Affiliation: Department of Information Technology, Uppsala University, Sweden
+
+Talk: A Scalability Benchmark Suite for Erlang/OTP
+Start: 12:00
+Author: Stavros Aronis
+Author: Nikolaos Papaspyrou
+Author: Katerina Roukounaki
+Author: Konstantinos Sagonas
+Author: Yiannis Tsiouris
+Author: Ioannis Venetis
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
+Affiliation: Department of Information Technology, Uppsala University, Sweden
+
+Session: Lunch
+Start: 12:30
+
+Session: Distribution
+Chair: Steve Vinoski (Basho Technologies)
+Start: 14:00
+
+Talk: Distributed Computation on Dynamo-style Distributed Storage: Riak Pipe
+Start: 14:00
+Author: Brian Fink
+Affiliation: Basho Technologies
+
+Talk: 	 Failover and takeover contingency mechanisms for netsplits and node fall down
+Start: 14:30
+Author: Macías Lóp
+
+Author: Laura M. Castro
+Author: David Cabrero
+Affiliation: MADS Research Group, University of A Coru˜na, A Coru˜na, Spa
+
+
+Session: Poster session
+Chair: Tamas Kozsik (ELTE)
+Start: 15:00
+
+Talk: Co-ops: Concurrent Algorithmic Skeletons for Erlang
+Start: 15:00
+Author: Jay Nelson
+Affiliation: DuoMark International, Inc.
+
+Talk: 	 Towards Automatic Actor Pinning on Multi-Core Architectures
+Start: 15:00
+Author: Emilio Francesquini
+Author: Alfredo Goldman
+Author: Jean-François Méha
+
+Affiliation: Grenoble Informatics Laboratory, University of Grenoble
+Affiliation: Institute of Mathematics and Statistics, University of S˜ao Paulo
+
+Talk: ooErlang: Another Object Oriented Extension to Erlang
+Start: 15:00
+Author: Jucimar Silva Jr
+Author: Rafael Lins
+Affiliation: Universidade Federal de Pernambuco, Recife-Pernambuco-Brazil
+
+Session: Break
+Start: 15:30
+
+Session: Randomness and Random Testing
+Chair: Kostis Sagonas (Uppsala University)
+Start: 16:00
+
+Talk: TinyMT Pseudo Random Number Generator for Erlang
+Start: 16:00
+Author: Kenji Rikitake
+Affiliation: Institute for Information Management and Communication (IIMC), Kyoto University
+
+Talk: Concurrent Property-based Testing: From Prototype to Final Implementation
+Start: 16:30
+Author: Joseph Blomstedt
+Affiliation: Basho Technologies
+
+Session: Panel discussion: Scaling Erlang to 1000s of cores
+Start: 17:00
+
+-- everything after end is ignored
+End: 18:00
+

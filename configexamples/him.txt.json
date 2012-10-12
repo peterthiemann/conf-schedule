@@ -1,0 +1,190 @@
+{
+    "date": "Sep 14, 2012", 
+    "name": "Haskell Implementors' Workshop", 
+    "sessions": [
+        {
+            "chair": "", 
+            "name": "Session 1", 
+            "start": "09:00", 
+            "stop": "10:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Microsoft Research Ltd.", 
+                            "name": "Simon Peyton-Jones"
+                        }
+                    ], 
+                    "name": "GHC Status Update", 
+                    "start": "09:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Kent", 
+                            "name": "Thomas Schilling"
+                        }
+                    ], 
+                    "name": "A Trace-based Just-in-time Compiler for Haskell", 
+                    "start": "09:30"
+                }, 
+                {
+                    "authors": [], 
+                    "name": "First Lightning Talks Session", 
+                    "start": "10:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "10:30", 
+            "stop": "11:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 2", 
+            "start": "11:00", 
+            "stop": "12:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Indiana University", 
+                            "name": "Ryan Newton"
+                        }
+                    ], 
+                    "name": "Bringing Atomic Memory Operations to a Lazy Language", 
+                    "start": "11:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Well-Typed LLP", 
+                            "name": "Duncan Coutts"
+                        }, 
+                        {
+                            "affiliation": "Well-Typed LLP", 
+                            "name": "Edsko de Vries"
+                        }
+                    ], 
+                    "name": "Cloud Haskell 2.0", 
+                    "start": "11:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Microsoft Research Ltd.", 
+                            "name": "Simon Marlow"
+                        }
+                    ], 
+                    "name": "Why can't I get a stack trace?", 
+                    "start": "12:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Lunch Break", 
+            "start": "12:30", 
+            "stop": "14:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 3", 
+            "start": "14:00", 
+            "stop": "15:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Galois, Inc.", 
+                            "name": "Iavor S. Diatchki"
+                        }
+                    ], 
+                    "name": "Implementing Type-Level Literals in GHC", 
+                    "start": "14:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Google, Inc.", 
+                            "name": "Mark Lentczner"
+                        }
+                    ], 
+                    "name": "Haskell Platform: Field Report and Future Goals", 
+                    "start": "14:30"
+                }, 
+                {
+                    "authors": [], 
+                    "name": "Second Lightning Talks Session", 
+                    "start": "15:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "15:30", 
+            "stop": "16:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 4", 
+            "start": "16:00", 
+            "stop": "18:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Utrecht University", 
+                            "name": "Atze Dijkstra"
+                        }, 
+                        {
+                            "affiliation": "Utrecht University", 
+                            "name": "Alessandro Vermeulen"
+                        }, 
+                        {
+                            "affiliation": "Utrecht University", 
+                            "name": "Jurri\u00ebn Stutterheim"
+                        }
+                    ], 
+                    "name": "Web browser programming with UHC's JavaScript backend", 
+                    "start": "16:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "University of Koblenz-Landau", 
+                            "name": "Philipp Schuster"
+                        }, 
+                        {
+                            "affiliation": "Well-Typed LLP", 
+                            "name": "Andres L\u00f6h"
+                        }
+                    ], 
+                    "name": "Making cabal-install non-destructive", 
+                    "start": "16:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Chalmers University of Technology", 
+                            "name": "Niklas Broberg"
+                        }
+                    ], 
+                    "name": "haskell-suite", 
+                    "start": "17:00"
+                }, 
+                {
+                    "authors": [], 
+                    "name": "Third Lightning Talks Session and Beyond Haskell Discussion", 
+                    "start": "17:30"
+                }
+            ]
+        }
+    ]
+}

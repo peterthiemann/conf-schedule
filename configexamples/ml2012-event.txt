@@ -1,0 +1,124 @@
+Event: ML workshop
+Date: Sep 13, 2012
+
+-------------------------------
+Session: Welcome
+Start: 9:00
+--
+
+-------------------------------
+Session: Session 1
+Start: 9:05
+
+Talk: A Tale of Two Beasts : a Coq powered by a Caml (Invited talk)
+Start: 9:05
+Author: Pierre Letouzey
+
+-------------------------------
+Session: Break
+Start: 9:50
+
+-------------------------------
+Session: Session 2
+Start: 10:10
+
+Talk: OCaml-Java: OCaml on the JVM
+Start: 10:10
+Author: Xavier Clerc
+
+Talk: MoCHi: Software Model Checker for a Higher-Order Functional Language (Demo)
+Start: 10:40
+Author: Ryosuke Sato
+Author: Hiroshi Unno
+Author: Naoki Kobayashi
+
+-------------------------------
+Session: Break
+Start: 10:55
+
+-------------------------------
+Session: Session 3
+Start: 11:10
+
+Talk: Tracing ambiguity in GADT type inference
+Start: 11:10
+Author: Jacques Garrigue
+Author: Didier Remy
+
+Talk: GADT meet subtyping
+Start: 11:40
+Author: Gabriel Scherer
+Author: Didier Remy
+
+Talk: Demo of CeX3D Inverse and Standard ML Technology
+Start: 12:10
+Author: Anoq Of The Sun
+
+-------------------------------
+Session: Lunch
+Start: 12:25
+
+-------------------------------
+Session: Session 4
+Start: 13:45
+
+Talk: Information-rich programming in F# (Tutorial)
+Start: 13:45
+Author: Tomas Petricek
+
+Talk: On Implementing the Forlan Formal Language Theory Toolset in Standard ML (Experience report)
+Start: 14:15
+Author: Alley Stoughton
+
+Talk: Status Report: The Manticore Project
+Start: 14:40
+Author: Lars Bergstrom
+Author: Carsen Berger
+Author: John Reppy
+Author: Stephen Rosen
+Author: Nora Sandler
+Author: Adam Shaw
+Author: Matthew Fluet
+Author: Mike Rainey
+
+-------------------------------
+Session: Break
+Start: 15:10
+
+-------------------------------
+Session: Session 5
+Start: 15:25
+
+Talk: Programming with permissions: the Mezzo language
+Start: 15:25
+Author: Jonathan Protzenko
+Author: Francois Pottier
+
+Talk: F-ing applicative functors
+Start: 15:55
+Author: Andreas Rossberg
+Author: Claudio Russo
+Author: Derek Dreyer
+
+-------------------------------
+Session: Break
+Start: 16:25
+
+-------------------------------
+Session: Session 6
+Start: 16:40
+
+Talk:  Handling Overflow in MLton
+Start: 16:40
+Author: Alexander Bjerremand Hansen
+Author: Jan Midtgaard
+
+Talk: Panel session: syntactic meta-programming for ML
+Start: 17:10
+Author: Tomas Petricek
+Author: Nicolas Pouillard
+Author: Jeremy Yallop
+Author: Hongbo Zhang
+
+
+End: 18:00

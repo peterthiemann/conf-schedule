@@ -1,0 +1,262 @@
+{
+    "date": "Sep 14, 2012", 
+    "name": "Erlang Workshop", 
+    "sessions": [
+        {
+            "chair": "Scott Lystig Fritchie (Basho Technologies)", 
+            "name": "Keynote", 
+            "start": "09:00", 
+            "stop": "10:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Trifork A/S", 
+                            "name": "Kresten Krab Thorup"
+                        }
+                    ], 
+                    "name": "TBA", 
+                    "start": "09:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "Erik Stenman (Klarna AB)", 
+            "name": "Intelligent Agents", 
+            "start": "10:00", 
+            "stop": "10:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Babel group, DLSIIS, Facultad de Inform\u00b4atica, Universida Polit\u00b4ecnica de Madrid", 
+                            "name": "Alvaro Fernandez D\u00eda"
+                        }, 
+                        {
+                            "affiliation": "Babel group, DLSIIS, Facultad de Inform\u00b4atica, Universida Polit\u00b4ecnica de Madrid", 
+                            "name": "Clara Benac Earle"
+                        }, 
+                        {
+                            "affiliation": "Babel group, DLSIIS, Facultad de Inform\u00b4atica, Universida Polit\u00b4ecnica de Madrid", 
+                            "name": "Lars-\u00c5ke Fredlun"
+                        }
+                    ], 
+                    "name": "Erlang as an Implementation Platform for BDI Languages", 
+                    "start": "10:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "10:30", 
+            "stop": "11:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Kenneth Lundin (Ericsson AB)", 
+            "name": "Implementation", 
+            "start": "11:00", 
+            "stop": "12:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Nikolaos Papaspyrou"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Konstantinos Sagonas"
+                        }
+                    ], 
+                    "name": "On Preserving Term Sharing in the Erlang Virtual Machine", 
+                    "start": "11:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Kostis Sagonas"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Chris Stavrakakis"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Yiannis Tsiouris"
+                        }
+                    ], 
+                    "name": "ErLLVM: An LLVM Backend for Erlang", 
+                    "start": "11:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Stavros Aronis"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Nikolaos Papaspyrou"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Katerina Roukounaki"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Konstantinos Sagonas"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Yiannis Tsiouris"
+                        }, 
+                        {
+                            "affiliation": "School of Electrical and Computer Engineering, National Technical University of Athens, Greece", 
+                            "name": "Ioannis Venetis"
+                        }
+                    ], 
+                    "name": "A Scalability Benchmark Suite for Erlang/OTP", 
+                    "start": "12:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Lunch", 
+            "start": "12:30", 
+            "stop": "14:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Steve Vinoski (Basho Technologies)", 
+            "name": "Distribution", 
+            "start": "14:00", 
+            "stop": "15:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Basho Technologies", 
+                            "name": "Brian Fink"
+                        }
+                    ], 
+                    "name": "Distributed Computation on Dynamo-style Distributed Storage: Riak Pipe", 
+                    "start": "14:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "MADS Research Group, University of A Coru\u02dcna, A Coru\u02dcna, Spa", 
+                            "name": "Mac\u00edas L\u00f3p"
+                        }, 
+                        {
+                            "affiliation": "MADS Research Group, University of A Coru\u02dcna, A Coru\u02dcna, Spa", 
+                            "name": "Laura M. Castro"
+                        }, 
+                        {
+                            "affiliation": "MADS Research Group, University of A Coru\u02dcna, A Coru\u02dcna, Spa", 
+                            "name": "David Cabrero"
+                        }
+                    ], 
+                    "name": "\t Failover and takeover contingency mechanisms for netsplits and node fall down", 
+                    "start": "14:30"
+                }
+            ]
+        }, 
+        {
+            "chair": "Tamas Kozsik (ELTE)", 
+            "name": "Poster session", 
+            "start": "15:00", 
+            "stop": "15:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "DuoMark International, Inc.", 
+                            "name": "Jay Nelson"
+                        }
+                    ], 
+                    "name": "Co-ops: Concurrent Algorithmic Skeletons for Erlang", 
+                    "start": "15:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Grenoble Informatics Laboratory, University of Grenoble", 
+                            "name": "Emilio Francesquini"
+                        }, 
+                        {
+                            "affiliation": "Grenoble Informatics Laboratory, University of Grenoble", 
+                            "name": "Alfredo Goldman"
+                        }, 
+                        {
+                            "affiliation": "Grenoble Informatics Laboratory, University of Grenoble", 
+                            "name": "Jean-Fran\u00e7ois M\u00e9ha"
+                        }
+                    ], 
+                    "name": "\t Towards Automatic Actor Pinning on Multi-Core Architectures", 
+                    "start": "15:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Universidade Federal de Pernambuco, Recife-Pernambuco-Brazil", 
+                            "name": "Jucimar Silva Jr"
+                        }, 
+                        {
+                            "affiliation": "Universidade Federal de Pernambuco, Recife-Pernambuco-Brazil", 
+                            "name": "Rafael Lins"
+                        }
+                    ], 
+                    "name": "ooErlang: Another Object Oriented Extension to Erlang", 
+                    "start": "15:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "15:30", 
+            "stop": "16:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Kostis Sagonas (Uppsala University)", 
+            "name": "Randomness and Random Testing", 
+            "start": "16:00", 
+            "stop": "17:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Institute for Information Management and Communication (IIMC), Kyoto University", 
+                            "name": "Kenji Rikitake"
+                        }
+                    ], 
+                    "name": "TinyMT Pseudo Random Number Generator for Erlang", 
+                    "start": "16:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Basho Technologies", 
+                            "name": "Joseph Blomstedt"
+                        }
+                    ], 
+                    "name": "Concurrent Property-based Testing: From Prototype to Final Implementation", 
+                    "start": "16:30"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Panel discussion: Scaling Erlang to 1000s of cores", 
+            "start": "17:00", 
+            "stop": "18:00", 
+            "talks": []
+        }
+    ]
+}

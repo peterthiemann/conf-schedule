@@ -1,0 +1,78 @@
+Event: LFMTP
+Date: Sep 9, 2012
+
+Session: SESSION 1
+Start: 09:00
+
+Talk: Beluga^mu: Programming proofs in context
+Start: 09:00
+Author: Brigitte Pientka
+Affiliation: McGill University
+
+Talk: A supposedly fun thing I may have to do again: A HOAS encoding of Howe's method
+Start: 10:00
+Author: Alberto Momigliano
+Affiliation: University of Milan
+
+Session: BREAK
+Start: 10:30
+
+Session: SESSION 2
+Start: 11:00
+
+Talk: From de Bruijn to nowadays: The evolution of libraries for binding representation
+Start: 11:00
+Author: Nicolas Pouillard
+Affiliation: ITU Copenhagen
+
+Talk: LFP – A Logical Framework with External Predicates
+Start: 12:00
+Author: Furio Honsell
+Author: Marina Lenisa
+Affiliation: University of Udine
+Author: Luigi Liquori
+Author: Petar Maksimovic
+Affiliation: INRIA-Sophia Antipolis Méditerranée 
+Author: Ivan Scagnetto
+Affiliation: University of Udien
+
+Session: LUNCH
+Start: 12:30
+
+Session: SESSION 3
+Start: 14:00
+
+Talk: A Walk in the Substructural Park
+Start: 14:00
+Author: Robert J. Simmons
+Affiliation: Carnegie Mellon University
+
+Talk: Trace Matching in a Concurrent Logical Framework
+Start: 15:00
+Author: Iliano Cervesato
+Author: Frank Pfenning
+Author: Jorge Luis Sacchini
+Affiliation: Carnegie Mellon University
+Author: Carsten Schürmann
+Affiliation: ITU Copenhagen
+Author: Robert J. Simmons
+Affiliation: Carnegie Mellon University
+
+Session: BREAK
+Start: 15:30
+
+Session: SESSION 4
+Start: 16:00
+
+Talk: LF in LF: Mechanizing the Metatheory of LF in Twelf
+Start: 16:00
+Author: Chris Martens
+Author: Karl Crary
+Affiliation: Carnegie Mellon University
+
+Talk: A POPLmark retrospective: Using proof assistants in programming language research
+Start: 16:30
+Author: Stephanie Weirich
+Affiliation: University of Pennsylvania
+
+End: 17:30

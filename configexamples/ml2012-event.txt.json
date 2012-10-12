@@ -1,0 +1,298 @@
+{
+    "date": "Sep 13, 2012", 
+    "name": "ML workshop", 
+    "sessions": [
+        {
+            "chair": "", 
+            "name": "Welcome", 
+            "start": "9:00", 
+            "stop": "9:05", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 1", 
+            "start": "9:05", 
+            "stop": "9:50", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Pierre Letouzey"
+                        }
+                    ], 
+                    "name": "A Tale of Two Beasts : a Coq powered by a Caml (Invited talk)", 
+                    "start": "9:05"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "9:50", 
+            "stop": "10:10", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 2", 
+            "start": "10:10", 
+            "stop": "10:55", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Xavier Clerc"
+                        }
+                    ], 
+                    "name": "OCaml-Java: OCaml on the JVM", 
+                    "start": "10:10"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Ryosuke Sato"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Hiroshi Unno"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Naoki Kobayashi"
+                        }
+                    ], 
+                    "name": "MoCHi: Software Model Checker for a Higher-Order Functional Language (Demo)", 
+                    "start": "10:40"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "10:55", 
+            "stop": "11:10", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 3", 
+            "start": "11:10", 
+            "stop": "12:25", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Jacques Garrigue"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Didier Remy"
+                        }
+                    ], 
+                    "name": "Tracing ambiguity in GADT type inference", 
+                    "start": "11:10"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Gabriel Scherer"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Didier Remy"
+                        }
+                    ], 
+                    "name": "GADT meet subtyping", 
+                    "start": "11:40"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Anoq Of The Sun"
+                        }
+                    ], 
+                    "name": "Demo of CeX3D Inverse and Standard ML Technology", 
+                    "start": "12:10"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Lunch", 
+            "start": "12:25", 
+            "stop": "13:45", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 4", 
+            "start": "13:45", 
+            "stop": "15:10", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Tomas Petricek"
+                        }
+                    ], 
+                    "name": "Information-rich programming in F# (Tutorial)", 
+                    "start": "13:45"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Alley Stoughton"
+                        }
+                    ], 
+                    "name": "On Implementing the Forlan Formal Language Theory Toolset in Standard ML (Experience report)", 
+                    "start": "14:15"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Lars Bergstrom"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Carsen Berger"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "John Reppy"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Stephen Rosen"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Nora Sandler"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Adam Shaw"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Matthew Fluet"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Mike Rainey"
+                        }
+                    ], 
+                    "name": "Status Report: The Manticore Project", 
+                    "start": "14:40"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "15:10", 
+            "stop": "15:25", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 5", 
+            "start": "15:25", 
+            "stop": "16:25", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Jonathan Protzenko"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Francois Pottier"
+                        }
+                    ], 
+                    "name": "Programming with permissions: the Mezzo language", 
+                    "start": "15:25"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Andreas Rossberg"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Claudio Russo"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Derek Dreyer"
+                        }
+                    ], 
+                    "name": "F-ing applicative functors", 
+                    "start": "15:55"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "16:25", 
+            "stop": "16:40", 
+            "talks": []
+        }, 
+        {
+            "chair": "", 
+            "name": "Session 6", 
+            "start": "16:40", 
+            "stop": "18:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Alexander Bjerremand Hansen"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Jan Midtgaard"
+                        }
+                    ], 
+                    "name": " Handling Overflow in MLton", 
+                    "start": "16:40"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "", 
+                            "name": "Tomas Petricek"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Nicolas Pouillard"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Jeremy Yallop"
+                        }, 
+                        {
+                            "affiliation": "", 
+                            "name": "Hongbo Zhang"
+                        }
+                    ], 
+                    "name": "Panel session: syntactic meta-programming for ML", 
+                    "start": "17:10"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+Event: ICFP day #1
+Date: Sep 10, 2012
+
+Session: Welcome
+Start: 8:45
+
+Session: Keynote
+Chair: Peter Thiemann (University of Freiburg)
+Start: 9:00
+
+Talk: Agda-curious?: An Exploration of Programming with Dependent Types
+Start: 9:00
+Author: Conor McBride
+Affiliation: University of Strathclyde
+
+Session: Break
+Start: 10:00
+
+Session: Automated Theorem Proving
+Chair: Stephanie Weirich
+Start: 10:20
+
+Talk: Verified Heap Theorem Prover by Paramodulation
+Start: 10:20
+Author: Gordon Stewart
+Author: Lennart Beringer
+Author: Andrew W. Appel
+Affiliation: Princeton University
+
+Talk: Formal Verification of Monad Transformers
+Start: 10:40
+Author: Brian Huffman
+Affiliation: T.U. Munich
+
+Session: Break
+Start: 11:00
+
+Session: Types
+Chair: Lars Birkedal
+Start: 11:20
+
+Talk: Elaborating Intersection and Union Types
+Start: 11:20
+Author: Joshua Dunfield
+Affiliation: MPI-SWS
+
+Talk: An Error-Tolerant Type System for Variational Lambda Calculus
+Start: 11:40
+Author: Sheng Chen
+Author: Martin Erwig
+Author: Eric Walkingshaw
+Affiliation: Oregon State University
+
+Talk: Superficially Substructural Types
+Start: 12:00
+Author: Neelakantan R. Krishnaswami
+Affiliation: MPI-SWS
+Author: Aaron Turon
+Affiliation: Northeastern University
+Author: Derek Dreyer
+Author: Deepak Garg
+Affiliation: MPI-SWS
+
+Session: Lunch/Posters
+Start: 12:20
+
+Session: Business Meeting
+Start: 14:00
+
+Session: Break
+Start: 14:40
+
+Session: Embedded Languages
+Chair: Sam Tobin-Hochstadt
+Start: 15:00
+
+Talk: Shake Before Building - Replacing Make with Haskell
+Start: 15:00
+Author: Neil Mitchell
+
+Talk: Practical Typed Lazy Contracts
+Start: 15:20
+Author: Olaf Chitil
+Affiliation: University of Kent
+
+Session: Break
+Start: 15:40
+
+Session: Programming with Graphs and Search
+Chair: Jeremy Gibbons
+Start: 16:00
+
+Talk: Functional Programming with Structured Graphs
+Start: 16:00
+Author: Bruno Oliveira
+Affiliation: Seoul National University
+Author: William R. Cook
+Affiliation: University of Texas, Austin
+
+Talk: Painless programming combining reduction and search. Design principles for embedding decision procedures in high-level languages.
+Start: 16:20
+Author: Tim Sheard
+Affiliation: Portland State University
+
+Session: Break
+Start: 16:40
+
+Session: Ornaments, Extraction, and Semantics
+Chair: John Hughes
+Start: 17:00
+
+Talk: Transporting Functions across Ornaments
+Start: 17:00
+Author: Pierre-Evariste Dagand
+Author: Conor McBride
+Affiliation: MSP group, University of Strathclyde
+
+Talk: Proof-Producing Synthesis of ML from Higher-Order Logic
+Start: 17:20
+Author: Magnus O. Myreen
+Author: Scott Owens
+Affiliation: University of Cambridge
+
+Talk: Operational Semantics Using the Partiality Monad
+Start: 17:40
+Author: Nils Anders Danielsson
+Affiliation: Chalmers University of Technology and University of Gothenburg
+
+End: 18:00

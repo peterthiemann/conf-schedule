@@ -1,0 +1,253 @@
+{
+    "date": "Sep 09, 2012", 
+    "name": "HOPE", 
+    "sessions": [
+        {
+            "chair": "Derek Dreyer", 
+            "name": "Verification", 
+            "start": "09:00", 
+            "stop": "10:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "ETH Zurich", 
+                            "name": "Ioannis Kassios"
+                        }, 
+                        {
+                            "affiliation": "ETH Zurich", 
+                            "name": "Peter Mueller"
+                        }
+                    ], 
+                    "name": "Modular Specification and Verification of Delegation with SMT Solvers", 
+                    "start": "09:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "IT Univ. of Copenhagen", 
+                            "name": "Kasper Svendsen"
+                        }, 
+                        {
+                            "affiliation": "IT Univ. of Copenhagen", 
+                            "name": "Lars Birkedal"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research Cambridge", 
+                            "name": "Matthew Parkinson"
+                        }
+                    ], 
+                    "name": "On Higher-Order Separation Logic for Higher-Order Concurrent Imperative Programs", 
+                    "start": "09:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Northeastern University", 
+                            "name": "James T. Perconti"
+                        }, 
+                        {
+                            "affiliation": "Northeastern University", 
+                            "name": "Amal Ahmed"
+                        }
+                    ], 
+                    "name": "Verifying an Open Compiler from ML to Assembly", 
+                    "start": "10:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "10:30", 
+            "stop": "11:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Francois Pottier", 
+            "name": "Monads and More", 
+            "start": "11:00", 
+            "stop": "12:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Univ. of Edinburgh", 
+                            "name": "Ohad Kammar"
+                        }, 
+                        {
+                            "affiliation": "Univ. of Edinburgh", 
+                            "name": "Sam Lindley"
+                        }, 
+                        {
+                            "affiliation": "Univ. of Edinburgh", 
+                            "name": "Nicolas Oury"
+                        }
+                    ], 
+                    "name": "Handlers in Action", 
+                    "start": "11:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Indiana University", 
+                            "name": "Zachary Owens"
+                        }
+                    ], 
+                    "name": "Contract Monitoring as an Effect", 
+                    "start": "11:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "IMDEA Software", 
+                            "name": "Noam Zeilberger"
+                        }
+                    ], 
+                    "name": "HOPE for a HOPE-theoretic Understanding of Zero-Knowledge", 
+                    "start": "12:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Lunch", 
+            "start": "12:30", 
+            "stop": "14:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Amal Ahmed", 
+            "name": "Types and Effects", 
+            "start": "14:00", 
+            "stop": "15:30", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Microsoft Research", 
+                            "name": "Daan Leijen"
+                        }
+                    ], 
+                    "name": "Koka: A Language with Row-Polymorphic Effect Inference", 
+                    "start": "14:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Univ. of Colorado at Boulder", 
+                            "name": "Jeremy Siek"
+                        }, 
+                        {
+                            "affiliation": "Univ. of Colorado at Boulder", 
+                            "name": "Michael Vitousek"
+                        }, 
+                        {
+                            "affiliation": "Univ. of Colorado at Boulder", 
+                            "name": "Jonathan Turner"
+                        }
+                    ], 
+                    "name": "Effects for Funargs", 
+                    "start": "14:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Univ. of Cambridge", 
+                            "name": "Andrew Pitts"
+                        }
+                    ], 
+                    "name": "Generative Names and Dependent Types", 
+                    "start": "15:00"
+                }
+            ]
+        }, 
+        {
+            "chair": "", 
+            "name": "Break", 
+            "start": "15:30", 
+            "stop": "16:00", 
+            "talks": []
+        }, 
+        {
+            "chair": "Amr Sabry", 
+            "name": "Logical Relations and Parametricity", 
+            "start": "16:00", 
+            "stop": "18:00", 
+            "talks": [
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Northeastern University", 
+                            "name": "Aaron Turon"
+                        }, 
+                        {
+                            "affiliation": "IT Univ. of Copenhagen", 
+                            "name": "Jacob Thamsborg"
+                        }, 
+                        {
+                            "affiliation": "Northeastern University", 
+                            "name": "Amal Ahmed"
+                        }, 
+                        {
+                            "affiliation": "IT Univ. of Copenhagen", 
+                            "name": "Lars Birkedal"
+                        }, 
+                        {
+                            "affiliation": "MPI-SWS", 
+                            "name": "Derek Dreyer"
+                        }
+                    ], 
+                    "name": "Logical Relations for Fine-Grained Concurrency", 
+                    "start": "16:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Kyoto University", 
+                            "name": "Taro Sekiyama"
+                        }, 
+                        {
+                            "affiliation": "Kyoto University", 
+                            "name": "Atsushi Igarashi"
+                        }
+                    ], 
+                    "name": "Logical Relations for a Manifest Contract Calculus, Fixed", 
+                    "start": "16:30"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Microsoft Research Cambridge", 
+                            "name": "Nick Benton"
+                        }, 
+                        {
+                            "affiliation": "LMU Munich", 
+                            "name": "Martin Hofmann"
+                        }, 
+                        {
+                            "affiliation": "Microsoft Research Cambridge", 
+                            "name": "Andrew Kennedy"
+                        }, 
+                        {
+                            "affiliation": "LMU Munich", 
+                            "name": "Vivek Nigam"
+                        }
+                    ], 
+                    "name": "Proof-Relevant Logical Relations", 
+                    "start": "17:00"
+                }, 
+                {
+                    "authors": [
+                        {
+                            "affiliation": "Univ. of Birmingham", 
+                            "name": "Uday Reddy"
+                        }
+                    ], 
+                    "name": "Two Theories of Information Hiding", 
+                    "start": "17:30"
+                }
+            ]
+        }
+    ]
+}

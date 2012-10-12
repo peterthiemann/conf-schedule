@@ -1,0 +1,109 @@
+-- Version of 2 Sep 2012 12:30, andrzej@diku.dk
+
+Event: FHPC
+Date: Sep 15, 2012
+
+Session: Welcome
+Start: 9:00
+
+Session: Compilation Technology
+Start: 9:05
+
+Talk: Keynote: Using Domain-Specific Languages and Access-Execute Descriptors to Expand the Parallel Code Synthesis Design Space
+Start: 9:05
+Author: Paul H J Kelly
+Affiliation: Imperial College London
+
+Talk: Parallel Programming in Haskell Almost for Free: An Embedding of Intel's Array Building Blocks
+Start: 10:00
+Author: Bo Joel Svensson
+Author: Mary Sheeran
+Affiliation: Chalmers University of Technology
+
+Session: Break
+Start: 10:30
+
+Session: Dataflow Programming
+Start: 11:00
+
+Talk: Avalanche: A Fine-Grained Flow Graph Model for Irregular Applications on Distributed-Memory Systems
+Start: 11:00
+Author: Jeremiah J. Willcock
+Author: Ryan R. Newton
+Author: Andrew Lumsdaine 
+Affiliation: Indiana University
+
+Talk: Harnessing Parallelism in FPGAs Using the Hume Language
+Start: 11:30
+Author: Jocelyn Sérot
+Affiliation: Blaise Pascal University
+Author: Greg Michaelson
+Affiliation: Heriot-Watt University
+
+Talk: Usage of Petri Nets for High Performance Computing
+Start: 12:00
+Author: Stanislav Böhm
+Author: Marek Běhálek
+Affiliation: VŠB–Technical University of Ostrava
+
+Session: Lunch
+Start: 12:30
+
+Session: Performance vs. Abstraction
+Start: 14:00
+
+Talk: Haskell vs. F# vs. Scala: A High-level Language Features and Parallelism Support Comparison
+Start: 14:00
+Author: Prabhat Totoo
+Author: Pantazis Deligiannis
+Author: Hans-Wolfgang Loidl
+Affiliation: Heriot-Watt University
+
+Talk: Financial Software on GPUs: Between Haskell and Fortran
+Start: 14:30
+Author: Cosmin E. Oancea
+Author: Christian Andreetta
+Author: Jost Berthold
+Affiliation: University of Copenhagen
+Author: Alain Frisch
+Affiliation: LexiFi
+Author: Fritz Henglein
+Affiliation: University of Copenhagen
+
+Talk: Seeing the Futures: Profiling Shared-Memory Parallel Racket
+Start: 15:00
+Author: James Swaine
+Author: Burke Fetscher
+Affiliation: Northwestern University
+Author: Vincent St-Amour
+Affiliation: Northeastern University
+Author: Robert Bruce Findler
+Affiliation: Northwestern University
+Author: Matthew Flatt
+Affiliation: University of Utah
+
+Session: Break
+Start: 15:30
+
+Session: Domain-Specific Middleware
+Start: 16:00
+
+Talk: Parallel Discrete Event Simulation with Erlang
+Start: 16:00
+Author: Luca Toscano
+Author: Gabriele D'Angelo
+Author: Moreno Marzolla
+Affiliation: University of Bologna
+
+Talk: An Embedded DSL for Stochastic Processes
+Start: 16:30
+Author: Michael Flænø Werk
+Author: Joakim Ahnfelt-Rønne
+Author: Ken Friis Larsen
+Affiliation: University of Copenhagen
+
+Session: Closing
+Start: 17:00
+
+End: 17:10
+

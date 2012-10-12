@@ -1,0 +1,137 @@
+Event: HOPE
+Date: Sep 09, 2012
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session | talk)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+Session: Verification
+Chair: Derek Dreyer
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Modular Specification and Verification of Delegation with SMT Solvers
+Start: 09:00
+Author: Ioannis Kassios
+Author: Peter Mueller
+Affiliation: ETH Zurich
+
+Talk: On Higher-Order Separation Logic for Higher-Order Concurrent Imperative Programs
+Start: 09:30
+Author: Kasper Svendsen
+Author: Lars Birkedal
+Affiliation: IT Univ. of Copenhagen
+Author: Matthew Parkinson
+Affiliation: Microsoft Research Cambridge
+
+Talk: Verifying an Open Compiler from ML to Assembly
+Start: 10:00
+Author: James T. Perconti
+Author: Amal Ahmed
+Affiliation: Northeastern University
+
+Session: Break
+Start: 10:30
+
+Session: Monads and More
+Chair: Francois Pottier
+Start: 11:00
+
+Talk: Handlers in Action
+Start: 11:00
+Author: Ohad Kammar
+Author: Sam Lindley
+Author: Nicolas Oury
+Affiliation: Univ. of Edinburgh
+
+Talk: Contract Monitoring as an Effect
+Start: 11:30
+Author: Zachary Owens
+Affiliation: Indiana University
+
+Talk: HOPE for a HOPE-theoretic Understanding of Zero-Knowledge
+Start: 12:00
+Author: Noam Zeilberger
+Affiliation: IMDEA Software
+
+Session: Lunch
+Start: 12:30
+
+Session: Types and Effects
+Chair: Amal Ahmed
+Start: 14:00
+
+Talk: Koka: A Language with Row-Polymorphic Effect Inference
+Start: 14:00
+Author: Daan Leijen
+Affiliation: Microsoft Research
+
+Talk: Effects for Funargs
+Start: 14:30
+Author: Jeremy Siek
+Author: Michael Vitousek
+Author: Jonathan Turner
+Affiliation: Univ. of Colorado at Boulder
+
+Talk: Generative Names and Dependent Types
+Start: 15:00
+Author: Andrew Pitts
+Affiliation: Univ. of Cambridge
+
+Session: Break
+Start: 15:30
+
+Session: Logical Relations and Parametricity
+Chair: Amr Sabry
+Start: 16:00
+
+Talk: Logical Relations for Fine-Grained Concurrency
+Start: 16:00
+Author: Aaron Turon
+Affiliation: Northeastern University
+Author: Jacob Thamsborg
+Affiliation: IT Univ. of Copenhagen
+Author: Amal Ahmed
+Affiliation: Northeastern University
+Author: Lars Birkedal
+Affiliation: IT Univ. of Copenhagen
+Author: Derek Dreyer
+Affiliation: MPI-SWS
+
+Talk: Logical Relations for a Manifest Contract Calculus, Fixed
+Start: 16:30
+Author: Taro Sekiyama
+Author: Atsushi Igarashi
+Affiliation: Kyoto University
+
+Talk: Proof-Relevant Logical Relations
+Start: 17:00
+Author: Nick Benton
+Affiliation: Microsoft Research Cambridge
+Author: Martin Hofmann
+Affiliation: LMU Munich
+Author: Andrew Kennedy
+Affiliation: Microsoft Research Cambridge
+Author: Vivek Nigam
+Affiliation: LMU Munich
+
+Talk: Two Theories of Information Hiding
+Start: 17:30
+Author: Uday Reddy
+Affiliation: Univ. of Birmingham
+
+End: 18:00
+
