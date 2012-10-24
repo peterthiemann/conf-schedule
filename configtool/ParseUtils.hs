@@ -7,6 +7,7 @@ import Text.ParserCombinators.UU.Utils hiding (lexeme)
 import Text.ParserCombinators.UU.BasicInstances hiding (Parser)
 
 import BasicTypes
+import Data.Char
 
 type Parser a = P (Str Char String LineColPos) a
 
@@ -26,16 +27,42 @@ pMonth :: Parser Month
 pMonth = lexeme pEnumRaw
 
 pDayNum :: Parser Int
-pDayNum = lexeme pNaturalRaw
+pDayNum = lexeme p1_31Raw
 
 pYearNum :: Parser Int
-pYearNum = lexeme pNaturalRaw
+pYearNum = lexeme (pNDigitInt 4) <?> "year"
 
 pTime :: Parser Time
 pTime = Time <$> pHourNum <* lexeme (pSym ':') <*> pMinuteNum
 
-pHourNum = lexeme pNaturalRaw
-pMinuteNum = lexeme pNaturalRaw
+pHourNum = lexeme p00_23Raw
+pMinuteNum = lexeme p00_59Raw
+
+twoDigitNum d1 d2 = 10*d1 + d2
+
+p1_31Raw =
+  twoDigitNum <$> pDigitVal '0' <*> pDigitRange '1' '9'
+  <|> twoDigitNum <$> pDigitRange '1' '2' <*> pDigitVal '9'
+  <|> twoDigitNum <$> pDigitRange '3' '3' <*> pDigitVal '1'
+  <|> pDigitRange '1' '9'
+  <?> "1-31"
+
+p00_23Raw =
+  twoDigitNum <$> pDigitVal '1' <*> pDigitVal '9'
+  <|> twoDigitNum <$> pDigitRange '2' '2' <*> pDigitVal '3'
+  <|> pDigitVal '9'
+  <?> "0-23"
+
+p00_59Raw =
+  (twoDigitNum <$> pDigitVal '5' <*> pDigitVal '9') <?> "00-59"
+
+pDigitVal h = 
+  pDigitRange '0' h
+pDigitRange l h =
+  (\c -> ord c - ord '0') <$>
+  (pSatisfy (\c -> l <= c && c <= h) (Insertion "zero" l 5))
+
+pNDigitInt n = (read :: String -> Int) <$> pExact n pDigit
 
 -- | Testing
 run :: Show t => Parser t -> String -> String
@@ -54,3 +81,6 @@ runFile p fname =
 
 dex1 = "Sep 9, 2012"
 dex2 = "Oct 10, 2012"
+dex3 = "October 0, 2012"
+dex4 = "March 22, 101010" -- gets March 2 :-(
+dex5 = "Mar 22, 101010" -- gets March 22
