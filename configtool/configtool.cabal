@@ -1,0 +1,13 @@
+Name:                configtool
+Version:             0.1
+Synopsis:            Converter for configuration files for ConfSchedule.net
+Description:         Parses configuration files, checks for errors, and transforms into
+		     JSON files suitable for the app.
+License:             BSD3
+License-file:        LICENSE
+Author:              Peter Thiemann
+Maintainer:          Peter Thiemann <thiemann@acm.org>
+Build-Depends:       base>=4.5, uu-parsinglib>=2.7.4
+
+Executable:          configtool
+Main-is:             Main.hs
