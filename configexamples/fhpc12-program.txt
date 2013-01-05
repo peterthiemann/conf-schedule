@@ -2,6 +2,7 @@
 
 Event: FHPC
 Date: Sep 15, 2012
+Room: main lecture theatre
 
 Session: Welcome
 Start: 9:00

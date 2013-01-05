@@ -1,5 +1,6 @@
 Event: ICFP day #1
 Date: Sep 10, 2012
+Room: main conference room
 -- this is a comment (ignored)
 -- use only the above format for dates!
 -- use utf-8 encoding for non-ASCII characters

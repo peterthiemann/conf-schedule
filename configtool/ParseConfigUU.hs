@@ -15,7 +15,7 @@ pFile :: Parser Event
 pFile = pMany (commentLine <|> emptyLine) *> pEvent
 
 pEvent :: Parser Event
-pEvent = Event <$> eventLine <*> dateLine <*> pSessions <*> endLine
+pEvent = Event <$> eventLine <*> dateLine <*> roomLine <*> pSessions <*> endLine
 
 pSessions :: Parser [Session]
 pSessions = pSome pSession
@@ -36,6 +36,9 @@ eventLine = keyLine "Event"
 
 dateLine :: Parser Date
 dateLine = kvLine "Date" pDate
+
+roomLine :: Parser String
+roomLine = keyLine "Room"
 
 sessionLine :: Parser String
 sessionLine = keyLine "Session"

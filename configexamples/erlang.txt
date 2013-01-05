@@ -1,5 +1,6 @@
 Event: Erlang Workshop
 Date: Sep 14, 2012
+Room: erlang workshop room
 -- this is a comment (ignored)
 -- use only the above format for dates!
 -- use utf-8 encoding for non-ASCII characters
@@ -53,16 +54,14 @@ Talk: On Preserving Term Sharing in the Erlang Virtual Machine
 Start: 11:00
 Author: Nikolaos Papaspyrou
 Author: Konstantinos Sagonas
-Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
-Affiliation: Department of Information Technology, Uppsala University, Sweden
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece and Department of Information Technology, Uppsala University, Sweden
 
 Talk: ErLLVM: An LLVM Backend for Erlang
 Start: 11:30
 Author: Kostis Sagonas
 Author: Chris Stavrakakis
 Author: Yiannis Tsiouris
-Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
-Affiliation: Department of Information Technology, Uppsala University, Sweden
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece and Department of Information Technology, Uppsala University, Sweden
 
 Talk: A Scalability Benchmark Suite for Erlang/OTP
 Start: 12:00
@@ -72,8 +71,7 @@ Author: Katerina Roukounaki
 Author: Konstantinos Sagonas
 Author: Yiannis Tsiouris
 Author: Ioannis Venetis
-Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece
-Affiliation: Department of Information Technology, Uppsala University, Sweden
+Affiliation: School of Electrical and Computer Engineering, National Technical University of Athens, Greece and Department of Information Technology, Uppsala University, Sweden
 
 Session: Lunch
 Start: 12:30
@@ -111,8 +109,7 @@ Author: Emilio Francesquini
 Author: Alfredo Goldman
 Author: Jean-François Méha
 
-Affiliation: Grenoble Informatics Laboratory, University of Grenoble
-Affiliation: Institute of Mathematics and Statistics, University of S˜ao Paulo
+Affiliation: Grenoble Informatics Laboratory, University of Grenoble and Institute of Mathematics and Statistics, University of S˜ao Paulo
 
 Talk: ooErlang: Another Object Oriented Extension to Erlang
 Start: 15:00

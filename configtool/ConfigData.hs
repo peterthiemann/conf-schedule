@@ -5,6 +5,7 @@ import BasicTypes
 data Event
   = Event { evName :: String
           , evDate :: Date
+          , evRoom :: String
           , evSessions :: [Session]
           , evEnd :: Time }
   deriving Show

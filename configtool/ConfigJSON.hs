@@ -59,9 +59,10 @@ instance JSON Session where
     showString "}"
 
 instance JSON Event where
-  toJSON (Event name date sessions end) =
+  toJSON (Event name date room sessions end) =
     jsObject [("name", showString (show name))
              ,("date", toJSON date)
+             ,("room", showString (show room))
              ,("end", toJSON end)
              ,("sessions", toJSON sessions)]
 

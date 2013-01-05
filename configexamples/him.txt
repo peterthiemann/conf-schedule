@@ -1,5 +1,6 @@
 Event: Haskell Implementors' Workshop
 Date: Sep 14, 2012
+Room: secondary lecture hall
 -- this is a comment (ignored)
 -- use only the above format for dates!
 -- use utf-8 encoding for non-ASCII characters

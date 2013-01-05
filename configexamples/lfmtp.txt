@@ -1,5 +1,6 @@
 Event: LFMTP
 Date: Sep 9, 2012
+Room: blue room
 
 Session: SESSION 1
 Start: 09:00

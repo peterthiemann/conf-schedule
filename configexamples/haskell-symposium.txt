@@ -1,5 +1,6 @@
 Event: Haskell Symposium
 Date: Sep 13, 2012
+Room: main lecture theatre
 
 -- regexp: talk start (author+ affiliation)+
 
