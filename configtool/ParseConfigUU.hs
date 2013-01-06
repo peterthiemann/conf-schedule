@@ -1,4 +1,4 @@
-{-# LANGUAGE  FlexibleContexts, NoMonomorphismRestriction #-}
+{-# LANGUAGE  FlexibleContexts, NoMonomorphismRestriction, Rank2Types #-}
 
 module ParseConfigUU where
 
