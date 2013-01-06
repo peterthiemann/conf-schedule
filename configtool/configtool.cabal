@@ -5,9 +5,9 @@ Description:         Parses configuration files, checks for errors, and transfor
 		     JSON files suitable for the app.
 License:             BSD3
 License-file:        LICENSE
-Author:              Peter Thiemann
+Author:              Peter Thiemann, Alexander Thiemann
 Maintainer:          Peter Thiemann <thiemann@acm.org>
-Build-Depends:       base>=4.5, uu-parsinglib>=2.7.4
+Build-Depends:       base>=4.5, uu-parsinglib>=2.7.4, aeson>=0.6, bytestring, text
 
 Executable:          configtool
 Main-is:             Main.hs

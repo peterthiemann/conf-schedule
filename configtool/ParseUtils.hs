@@ -72,12 +72,10 @@ run p inp =
 
 demoFile :: Show t => Parser t -> String -> IO t
 demoFile p fname =
-  do inp <- readFile fname
-     let (r,msgs) = parse ((,) <$> p <*> pEnd) (createStr (LineColPos 0 0 0) inp)
-     putStrLn $ show r
+  do out <- runFile p fname
      putStrLn ""
-     mapM_ (putStrLn . show) msgs
-     return r
+     putStrLn $ show out
+     return out
 
 runFile :: Show t => Parser t -> String -> IO t
 runFile p fname =

@@ -1,4 +1,4 @@
-conf-schedule
+ConfSchedule
 =============
 
-Tools for ConfSchedule
+Tool collection for ConfSchedule.net
