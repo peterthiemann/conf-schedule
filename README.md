@@ -14,4 +14,4 @@ Setup and Building
 
 Usage
 --------
-Once you've built your tool collection, run using `configtool [File1] [File2] [File3] ... [FileN]`
+Once you've built the tool, run using `configtool file [file ...]`
