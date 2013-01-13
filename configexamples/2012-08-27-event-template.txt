@@ -40,6 +40,7 @@ Start: 10:00
 
 Session: Automated Theorem Proving
 Chair: Stephanie Weirich
+Room: Theorem Proving Hall
 Start: 10:20
 
 Talk: Verified Heap Theorem Prover by Paramodulation
@@ -55,7 +56,6 @@ Author: Brian Huffman
 Affiliation: T.U. Munich
 
 Session: Break
-Room: Lobby
 Start: 11:00
 
 -- records omitted
