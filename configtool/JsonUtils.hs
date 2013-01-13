@@ -18,7 +18,7 @@ makeJson :: ToJSON a => a -> T.Text
 makeJson = toText . encode . toJSON
 
 fromText :: T.Text -> BSL.ByteString
-fromText text = BSL.fromStrict (TEnc.encodeUtf8 text)
+fromText text = BSL.pack $ BS.unpack (TEnc.encodeUtf8 text)
 
 toText :: BSL.ByteString -> T.Text
-toText bsl = TEnc.decodeUtf8 (BSL.toStrict bsl)
+toText bsl = TEnc.decodeUtf8 (BS.pack $ BSL.unpack bsl)

@@ -9,7 +9,7 @@ import Text.ParserCombinators.UU.BasicInstances hiding (Parser)
 import ParseUtils
 import BasicTypes
 import ConfigData
-import ConfigJSON
+--import ConfigJSON
 
 pFile :: Parser Event
 pFile = pMany (commentLine <|> emptyLine) *> pEvent

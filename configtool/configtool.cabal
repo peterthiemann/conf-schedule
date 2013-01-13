@@ -7,6 +7,7 @@ License:             BSD3
 License-file:        LICENSE
 Author:              Peter Thiemann, Alexander Thiemann
 Maintainer:          Peter Thiemann <thiemann@acm.org>
+Build-Type:	     Simple
 Build-Depends:       base>=4.5, uu-parsinglib>=2.7.4, aeson>=0.6, bytestring, text
 
 Executable:          configtool
