@@ -21,13 +21,16 @@ pSessions :: Parser [Session]
 pSessions = pSome pSession
 
 pSession :: Parser Session
-pSession = Session <$> sessionLine <*> pMaybe chairLine <*> startLine <*> pTalks
+pSession = Session <$> sessionLine <*> pMaybe chairLine <*> pMaybe roomLine <*> startLine <*> pTalks
 
 pTalks :: Parser [Talk]
 pTalks = pMany (Talk <$> talkLine <*> startLine <*> pAuthors)
 
 pAuthors :: Parser [Authors]
-pAuthors = pSome (Authors <$> pSome authorLine <*> affiliationLine)
+pAuthors = pSome (Authors <$> pSome pAuthor <*> pMaybe affiliationLine)
+
+pAuthor :: Parser Author
+pAuthor = Author <$> authorLine <*> pMaybe urlLine
 
 -- middle level definitions
 
@@ -49,6 +52,9 @@ startLine = kvLine "Start" pTime
 authorLine :: Parser String
 authorLine = keyLine "Author"
 
+urlLine :: Parser String
+urlLine = keyLine "URL"
+
 affiliationLine :: Parser String
 affiliationLine = keyLine "Affiliation"
 
@@ -63,22 +69,30 @@ endLine = kvLine "End" pTime
 
 -- low level definitions
 
+munchToEOL :: Parser String
+munchToEOL =
+  pMunch (not . (`elem` "\n\r"))
+
+pEOL :: Parser Char
+pEOL =
+  pLF <|> (pCR *> pLF)
+
 keyLine :: String -> Parser String
 keyLine kw = 
-  kvLine kw (pMunch (/= '\n'))
+  kvLine kw munchToEOL
 
-kvLine :: String -> ParserTrafo a a
+-- kvLine :: String -> ParserTrafo a a
 kvLine kw p =
-  (lexeme (pToken kw) *> lexeme (pSym ':') *> p <* pLF)
+  (lexeme (pToken kw) *> lexeme (pSym ':') *> p <* pEOL)
   <* pMany (commentLine <|> emptyLine)
 
--- commentLine :: Parser String
+commentLine :: Parser String
 commentLine =
-  inlineSpaces *> pToken "--" *> pMunch (/= '\n') <* pLF
+  inlineSpaces *> pSym '-' *> pSym '-' *> pMany (pSym '-') *> munchToEOL <* pEOL
 
--- emptyLine :: Parser String
+emptyLine :: Parser String
 emptyLine =
-  inlineSpaces <* pLF
+  inlineSpaces <* pEOL
 
 ex0 = "Event: ICFP day #1\n"
 ex1 = "Event: ICFP day #1\nDate: Sep 10, 2012\n"

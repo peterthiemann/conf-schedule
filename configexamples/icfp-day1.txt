@@ -1,5 +1,6 @@
 Event: ICFP day #1
 Date: Sep 10, 2012
+Room: Main Lecture Hall
 
 Session: Welcome
 Start: 8:45

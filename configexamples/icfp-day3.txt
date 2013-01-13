@@ -1,6 +1,6 @@
 Event: ICFP day #3
 Date: Sep 12, 2012
-
+Room: Main Lecture Hall
 
 Session: Keynote
 Chair: Robby Findler (Northwestern University)

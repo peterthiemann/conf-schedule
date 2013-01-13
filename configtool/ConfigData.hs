@@ -18,6 +18,7 @@ data Event
 data Session
   = Session { seName :: String
             , seChair :: Maybe String
+            , seRoom :: Maybe String
             , seStart :: Time
             , seTalks :: [Talk] }
   deriving (Show, Eq)
@@ -29,8 +30,14 @@ data Talk
   deriving (Show, Eq)
 
 data Authors
-  = Authors { auNames :: [String]
-            , auAffiliation :: String }
+  = Authors { auAuthors :: [Author]
+            , auAffiliation :: Maybe String }
+  deriving (Show, Eq)
+
+data Author
+  = Author { auName :: String
+           , auURL :: Maybe String
+           }
   deriving (Show, Eq)
 
 -- json instances
@@ -38,4 +45,5 @@ deriveJSON (drop 2) ''Event
 deriveJSON (drop 2) ''Session
 deriveJSON (drop 2) ''Talk
 deriveJSON (drop 2) ''Authors
+deriveJSON (drop 2) ''Author
 

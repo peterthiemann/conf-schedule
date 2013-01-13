@@ -1,5 +1,6 @@
 Event: XLDI
 Date: Sep 9, 2012
+Room: Red Room
 
 Session: Welcome
 Start: 8:45
@@ -22,6 +23,7 @@ Author: Kostas Tzoumas
 Affiliation: Technische Universitat Berlin, Germany
 
 Session: Break
+Room: Hall
 Start: 10:30
 
 Session: Cross-Model Programming Abstractions

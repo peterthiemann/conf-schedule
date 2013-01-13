@@ -1,5 +1,6 @@
 Event: ML workshop
 Date: Sep 13, 2012
+Room: ML WS room
 
 -------------------------------
 Session: Welcome
