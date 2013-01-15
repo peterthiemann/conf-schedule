@@ -1,0 +1,140 @@
+Event: VMCAI day #1
+Date: Jan 20, 2013
+Room: Fernandes
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+Session: Welcome
+Start: 08:45
+
+Talk: Opening
+Start: 8:45
+Author: Roberto Giacobazzi
+Author: Josh Berdine
+Author: Isabella Mastroeni
+
+Session: Invited Speaker
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: A Model-Constructing Satisfiability Calculus
+Start: 09:00
+Author: Leonardo de Moura
+Affiliation: Microsoft Research
+
+Session: Break
+Start: 10:00
+
+Session: Analysis of Systems with Continuous Behavior
+Chair: Roberto Giacobazzi
+Start: 10:30
+
+Talk: SMT-Based Bisimulation Minimisation of Markov Models
+Start: 10:30
+Author: Christian Dehnert
+Author: Joost-Pieter Katoen
+Author: David Parker
+--Affiliation:
+
+Talk: Hybrid Automata-based CEGAR for Rectangular Hybrid Systems
+Start: 11:00
+Author: Pavithra Prabhakar
+Author: Parasara Sridhar Duggirala
+Author: Sayan Mitra
+Author: Mahesh Viswanathan
+--Affiliation: 
+
+Talk: Quantifying Information Leakage of Randomized Protocols 
+Start: 11:30
+Author: Fabrizio Biondi
+Author: Axel Legay
+Author: Pasquale Malacaria
+Author: Andrzej Wasowski
+--Affiliation: 
+
+Session: Lunch
+Start: 12:00
+
+Session: Invited Speaker
+Start: 14:00
+
+Talk: Abstraction-Guided Synthesis
+Start: 14:00
+Author: Eran Yahav
+Affiliation: U. Technion
+
+Session: Synthesis
+Chair: Saurabh Srivastava
+Start: 15:00
+
+Talk: Reductions for Synthesis Procedures
+Start: 15:00
+Author: Swen Jacobs
+Author: Viktor Kuncak
+Author: Philippe Suter
+--Affiliation: 
+
+Talk: Towards Efficient Parameterized Synthesis
+Start: 15:30
+Author: Ayrat Khalimov
+Author: Swen Jacobs
+Author: Roderick Bloem
+--Affiliation: 
+
+Session: Break
+Start: 16:00
+
+Session: Analysis Algorithms and Theorem Proving Techniques for Program Analysis
+Chair: Agostino Cortesi
+Start: 16:30
+
+Talk: Automatic Inference of Necessary Preconditions
+Start: 16:30
+Author: Patrick Cousot
+Author: Radhia Cousot
+Author: Manuel Fähndrich 
+Author: Francesco Logozzo
+--Affiliation: 
+
+Talk: Fixpoint Computation in the Polyhedra Abstract Domain using Convex and Numerical Analysis Tools
+Start: 17:00
+Author: Yassamine Seladji
+Author: Olivier Bouissou
+--Affiliation: 
+
+Talk: SMT-Based Array Invariant Generation
+Start: 17:30
+Author: Daniel Larraz
+Author: Enric Rodríguez Carbonell 
+Author: Albert Rubio
+--Affiliation:
+
+Talk: Flow-sensitive Fault Localization
+Start: 18:00
+Author: Juergen Christ
+Author: Evren Ermis
+Author: Martin Schäf 
+Author: Thomas Wies
+--Affiliation: Microsoft Research
+
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:30

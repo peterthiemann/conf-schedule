@@ -1,0 +1,104 @@
+Event: ID day #1
+Date: Jan 21, 2013
+Room: Pallavicini
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+Session: Welcome
+Start: 08:45
+
+Session: Keynote
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: TBC
+Start: 09:00
+Author: David Sands
+Affiliation: Chalmers University of Technology
+
+Session: Break
+Start: 10:00
+
+Session: Morning
+Chair: Christian Hammer
+Start: 10:30
+
+Talk: Chasing Infections by Unveiling Program Dependencies
+Start: 10:30
+Author: Mila Dalla Preda
+Affiliation: Univ. di Bologna, Italy
+Author: Isabella Mastroeni
+Affiliation: Univ. di Verona, Italy
+
+Talk: Lock-sensitive Interference Analysis for Java: Combining Program Dependence Graphs with Dynamic Pushdown Networks
+Start: 11:00
+Author: Jurgen Graf 
+Author: Martin Hecker
+Author: Martin Mohr 
+Affiliation: Karlsruhe Institute of Technology
+Author: Benedikt Nordhoff
+Affiliation: University of Munster
+
+Talk: Semantic-based Slicing though the use of Program Contracts
+Start: 11:30
+Author: Daniela da Cruz
+Affiliation: Universidade do Minho Braga, Portugal
+
+Session: Lunch
+Start: 12:00
+
+Session: After lunch
+Start: 14:30
+
+Talk: Formal verification of program slicing for formally verified loop bound analyser
+Start: 14:30
+Author: David Pichardie 
+Affiliation: INRIA Rennes, France 
+
+Talk: Efficient Algorithms for Control Closures
+Start: 15:30
+Author: Christian Hammer 
+Affiliation: Saarland University, Germany
+
+Session: Break
+Start: 16:00
+
+Session: Afternoon
+Chair: David Clark
+Start: 16:30
+
+Talk: Dependency Analysis of UML Use Cases
+Start: 16:30
+Author: Kavin Lano 
+Affiliation: King's College London, UK
+
+
+Talk: Synchronized Symmetric Model-View-Controller
+Start: 17:00
+Author: Michel Sama 
+Affiliation: PuzzleDev s.n.c., Ravenna, Italy
+Author: Franco Raimondi 
+Affiliation: Middlesex University, London, UK
+
+Session: Discussion
+Start: 17:30
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:00

@@ -1,0 +1,128 @@
+Event: VMCAI day #2
+Date: Jan 21, 2013
+Room: Fernandes
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+Session: Invited Speaker
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Complete Abstractions Everywhere
+Start: 09:00
+Author: Francesco Ranzato
+Affiliation: U. Padova
+
+Session: Break
+Start: 10:00
+
+Session: Automata-based Techniques
+Chair: Samir Genaim
+Start: 10:30
+
+Talk: Static Analysis of String Encoders and Decoders
+Start: 10:30
+Author: Loris D'Antoni
+Author: Margus Veanes
+--Affiliation:
+
+Talk: Robustness Analysis of Networked Systems
+Start: 11:00
+Author: Roopsha Samanta
+Author: Jyotirmoy Deshmukh
+Author: Swarat Chaudhuri
+--Affiliation: 
+
+Talk: Causality Checking for Complex System Models
+Start: 11:30
+Author: Florian Leitner-Fischer
+Author: Stefan Leue
+--Affiliation: 
+
+Session: Lunch
+Start: 12:00
+
+Session: Invited Speaker SVARM
+Start: 14:00
+
+Talk: Theory Engineering Using Composable Packages
+Start: 14:00
+Author: Joe Leslie-Hurd
+Affiliation: Intel
+
+Session: Tools
+Chair: Sandrine Blazy
+Start: 15:00
+
+Talk: ClabureDB: Classified Bug-Reports Database (Tool for developers of program analysis tools)
+Start: 15:00
+Author: Jiri Slaby
+Author: Jan Strejcek
+Author: Marek Trtík
+--Affiliation: 
+
+Talk: Tool Integration with the Evidential Tool Bus
+Start: 15:30
+Author: Simon Cruanes
+Author: Gregoire Hamon
+Author: Sam Owre
+Author: Natarajan Shankar
+--Affiliation: 
+
+Session: Break
+Start: 16:00
+
+Session: Types and Proof Methodologies
+Chair: Josh Berdine
+Start: 16:30
+
+Talk: Compositional and Lightweight Dependent Type Inference for ML
+Start: 16:30
+Author: He Zhu
+Author: Suresh Jagannathan
+--Affiliation: 
+
+Talk: Abstract Read Permissions: Fractional Permissions without the Fractions
+Start: 17:00
+Author: Stefan Heule
+Author: Rustan Leino
+Author: Peter Müller 
+Author: Alexander Summers
+--Affiliation: 
+
+Talk: Sound and Complete Flow Typing with Unions, Intersections and Negations
+Start: 17:30
+Author: David Pearce
+--Affiliation:
+
+Session: Invited Speaker SVARM
+Start: 18:00
+
+Talk: Logic as the lingua franca of software verification
+Start: 18:00
+Author: Ken McMillan
+Affiliation: Microsoft Research
+
+Session: Social Dinner
+Start: 20:00
+
+-- records omitted
+
+-- everything after end is ignored
+End: 23:00

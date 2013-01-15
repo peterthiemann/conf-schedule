@@ -1,0 +1,139 @@
+Event: VMCAI day #3
+Date: Jan 22, 2013
+Room: Fernandes
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+Session: Invited Speaker
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Automata as Proofs
+Start: 09:00
+Author: Andreas Podelski
+Affiliation: U. Freiburg
+
+Session: Break
+Start: 10:00
+
+Session: Abstract domains
+Chair: Isabella Mastroeni
+Start: 10:30
+
+Talk: Knockout Prediction for Reaction Networks with Partial Kinetic Information
+Start: 10:30
+Author: Mathias John
+Author: Mirabelle Nebut
+Author: Joachim Niehren
+--Affiliation:
+
+Talk: Reduced Product Combination of Abstract Domains for Shapes
+Start: 11:00
+Author: Antoine Toubhans
+Author: Bor-Yuh Evan Chang
+Author: Xavier Rival
+--Affiliation: 
+
+Talk: Abstraction of Syntax 
+Start: 11:30
+Author: Vijay D'Silva
+Author: Daniel Kroening
+--Affiliation: 
+
+Session: Lunch
+Start: 12:00
+
+Session: Combining Boolean Solving and Abstract Domains for Theories
+Chair: Francesco Ranzato
+Start: 14:30
+
+Talk: Logico-Numerical Max-Strategy Iteration
+Start: 14:30
+Author: Peter Schrammel
+Author: Pavle Subotic
+--Affiliation: 
+
+Talk: A Constraint Solver based on Abstract Domains
+Start: 15:00
+Author: Marie Pelleau
+Author: Antoine Miné
+Author: Charlotte Truchet 
+Author: Frederic Benhamou
+--Affiliation: 
+
+Talk: An Abstract Interpretation of DPLL(T)
+Start: 15:30
+Author: Martin Brain
+Author: Vijay D'Silva
+Author: Leopold Haller
+Author: Alberto Griggio 
+Author: Daniel Kroening
+--Affiliation: 
+
+Session: Break
+Start: 16:00
+
+Session: Distributed/Concurrent System Verification
+Chair: Lenore Zuck
+Start: 16:30
+
+Talk: All for the Price of Few (Parameterized Verification through View Abstraction)
+Start: 16:30
+Author: Parosh Aziz Abdulla
+Author: Frédéric Haziza
+Author:Lukas Holik 
+--Affiliation: 
+
+Talk: Uncovering Symmetries in Irregular Process Networks
+Start: 17:00
+Author: Kedar Namjoshi
+Author: Richard Trefler
+--Affiliation: 
+
+Talk: State Space Reduction for Sensor Networks using Two-level Partial Order Reduction
+Start: 17:30
+Author: Manchun Zheng
+Author: David Sanán
+Author: Jun Sun
+Author: Yang Liu
+Author: Jin Song Dong 
+Author: Yu Gu
+--Affiliation:
+
+Talk: Compositional Sequentialization of Periodic Programs
+Start: 18:00
+Author: Sagar Chaki
+Author: Arie Gurfinkel
+Author: Soonho Kong
+Author: Ofer Strichman
+--Affiliation: 
+
+Session: Closing
+Start: 18:30
+Talk: Conference chair report 
+Start: 18:30
+Author: Roberto Giacobazzi
+Author: Josh Berdine
+Author: Isabella Mastroeni
+
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:45
