@@ -15,13 +15,27 @@ pFile :: Parser Event
 pFile = pMany (commentLine <|> emptyLine) *> pEvent
 
 pEvent :: Parser Event
-pEvent = Event <$> eventLine <*> dateLine <*> roomLine <*> pSessions <*> endLine
+pEvent = 
+  Event <$> eventLine <*> dateLine <*> roomLine <*> pSessions <*> endLine
+  <|>
+  event1 <$> eventLine <*> roomLine <*> dateLine <*> pSessions <*> endLine
+  where
+  event1 ev ro da ss end = Event ev da ro ss end
 
 pSessions :: Parser [Session]
 pSessions = pSome pSession
 
 pSession :: Parser Session
-pSession = Session <$> sessionLine <*> pMaybe chairLine <*> pMaybe roomLine <*> startLine <*> pTalks
+pSession =
+  session1 <$> sessionLine <*> chairLine <*> pMaybe roomLine <*> startLine <*> pTalks
+  <|>
+  session2 <$> sessionLine <*> roomLine <*> pMaybe chairLine <*> startLine <*> pTalks
+  <|> 
+  session3 <$> sessionLine <*> startLine <*> pTalks
+  where
+  session1 ss ch mro st ts = Session ss (Just ch) mro st ts
+  session2 ss ro mch st ts = Session ss mch (Just ro) st ts
+  session3 ss st ts        = Session ss Nothing Nothing st ts
 
 pTalks :: Parser [Talk]
 pTalks = pMany (Talk <$> talkLine <*> startLine <*> pAuthors)

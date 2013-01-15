@@ -80,7 +80,7 @@ demoFile p fname =
 runFile :: Show t => Parser t -> String -> IO t
 runFile p fname =
   do inp <- readFile fname
-     let (r,msgs) = parse ((,) <$> p <*> pEnd) (createStr (LineColPos 0 0 0) inp)
+     let (r,msgs) = parse ((,) <$> p <*> pEnd) (createStr (LineColPos 0 0 0) (inp ++ "\n"))
      mapM_ (putStrLn . show) msgs
      return r
 
