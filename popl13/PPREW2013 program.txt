@@ -1,0 +1,95 @@
+Event: PPREW Day #1
+Date: Jan 26, 2013
+Room: Estensi
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+Session: Welcome
+Chair: Todd McDonald
+Start: 09:00
+
+Session: Keynote
+Start: 09:15
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Industry trends and challenges in protection
+Start: 09:15
+Author: Andrew Wajs
+Affiliation: Irdeto
+
+Session: Break
+Start: 10:00
+
+Session: General
+Chair: Todd McDonald
+Start: 10:30
+
+Talk: Software Protection for Dynamically-Generated Code
+Start: 10:30
+Author: Sudeep Ghosh
+Author: Jason Hiser 
+Author: Jack W. Davidson 
+Affiliation: University of Virginia
+
+Talk: String Oriented Programming: When ASLR is Not Enough 
+Start: 11:15
+Author: Mathias Payer
+Author: Thomas R. Gross
+Affiliation: ETH Zurich, Switzerland
+
+Session: Lunch
+Start: 12:00
+
+Session: Keynote
+Start: 14:30
+
+Talk: Fast location of similar code fragments using semantic "juice"
+Start: 14:30
+Author: Arun Lakhotia
+Affiliation: University of Louisiana at Lafayette
+
+Session: General
+Chair: Mila Dalla Preda
+Start: 15:15
+
+Talk: Kernel Mode API Spectroscopy for Incident Response and Digital Forensics
+Start: 15:15
+Author: Viviane Zwanger
+Author: Felix C. Freiling 
+Affiliation: Friedrich-Alexander-University, Erlangen, Germany
+
+Session: Break
+Start: 16:00
+
+Session: General
+Chair: Mila Dalla Preda
+Start: 16:30
+
+Talk: BinSlayer: Accurate Comparison of Binary Executables
+Start: 16:30
+Author: Martial Bourquin
+Author: Andy King
+Author: Edward Robbins
+Affiliation: University of Kent
+
+Session: Panel Discussion
+Start: 17:15
+
+-- everything after end is ignored
+End: 18:00
+
