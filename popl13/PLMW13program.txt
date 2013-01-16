@@ -1,0 +1,145 @@
+Event: PLMW
+Date: Jan 22, 2013
+Room: Sforza B+C+D+E
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+-- Session: Welcome
+-- Start: 08:45
+
+Session: Session 1
+Chair: Philippa Gardner (Imperial, UK)
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: TBA
+Start: 09:00
+Author: Peter O'Hearn
+URL: http://www0.cs.ucl.ac.uk/staff/p.ohearn/
+Affiliation: UCL, UK
+
+Title: Processes and Coinduction
+Start: 09:30
+Author: Davide Sangiorgi
+URL: http://www.cs.unibo.it/~sangio/
+Affiliation: Univ. di Bologna, Italy
+
+Session: Break
+Start: 10:00
+
+Session: Session 2
+Chair: Alan Schmitt (INRIA, France)
+Start: 10:30
+
+Title: TBA
+Start: 10:30
+Author: Xavier Leroy
+URL: http://pauillac.inria.fr/~xleroy/
+Affiliation: INRIA, France
+
+Talk: Deductive Programme Verification
+Start: 11:00
+Author: Jean-Christophe Filliatre
+URL: http://www.lri.fr/~filliatr/
+Affiliation: CNRS, France
+
+Talk: What is a PhD? What is research? How do you succeed as a scientist?
+Start: 11:30
+Author: Matt Might
+URL: http://matt.might.net/
+Affiliation:  Utah, US
+
+Session: Lunch
+Start: 12:00
+
+Session: Session 3
+Chair: Peter Thiemann (Freiburg, Germany)
+Start: 14:30
+
+Talk: Planet Dynamic or: How I learned to Stop Worrying and Love Reflection
+Start: 13:45
+Author: Jan Vitek
+URL: http://www.cs.purdue.edu/homes/jv/
+Affiliation:  Purdue, US
+
+Talk: Computational Trinitarianism
+Start: 14:15
+Author: Bob Harper
+URL: http://www.cs.cmu.edu/~rwh/
+Affiliation: CMU, US
+
+Talk: Minor Break
+Start: 14:45
+Author: 
+
+Talk: Logical Relations
+Start: 15:00
+Author: Amal Ahmed
+URL: http://www.ccs.neu.edu/home/amal/
+Affiliation:  Northeastern, US
+
+
+Talk: How to write a paper
+Start: 15:30
+Author: Philip Wadler
+URL: http://homepages.inf.ed.ac.uk/wadler/
+Affiliation: Edinburgh, UK
+
+Session: Break
+Start: 16:00
+
+Session: Session 4
+Chair: Nate Foster (Cornell, US)
+Start: 16:30
+
+Title: From the Jungle to POPL: Maths vs Systems
+Start: 16:30
+Author: Peter Sewell
+URL: http://www.cl.cam.ac.uk/~pes20/
+Affiliation: Cambridge, UK
+
+Title: Accommodating the Laws of Physics: RCU
+Start: 17:00
+Author: Paul McKenney
+URL: http://paulmck.livejournal.com/
+Affiliation: IBM, US
+
+Title: Panel of young researchers
+Start: 17:30
+Author: Aaron Turon
+URL: http://www.mpi-sws.org/~turon/
+Affiliation: postdoc, MPI, Germany
+Author: Delphine Demange
+URL: http://www.seas.upenn.edu/~ddemange/
+Affiliation: postdoc, Penn, US
+Author: Alexey Gotsman
+URL: http://software.imdea.org/~gotsman/
+Affiliation: IMDEA, Spain
+Author: Kim Nguyễn
+URL: http://www.lri.fr/~kn/
+Affiliation: recent academic, Paris, France
+
+Session: Drinks reception
+Start: 18:00
+
+Session: One minute madness
+Start: 18:30
+
+-- everything after end is ignored
+End: 20:00
