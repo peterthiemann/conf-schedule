@@ -1,0 +1,292 @@
+Event: POPL Track A day #1
+Date: Jan 23, 2012
+Room: Fernandes
+
+Session: Welcome
+Start: 08:50
+
+Session: Keynote
+Chair: Manuel Hermenegildo
+Start: 09:00
+
+Talk: Engineering Mathematics: the Odd Order Theorem Proof
+Start: 09:00
+Author: Georges Gonthier
+Affiliation: Microsoft Research UK
+
+Session: Break
+Start: 10:00
+
+Session: Semantics
+Chair: Peter O'Hearn
+Start: 10:30
+
+Talk: Full Abstraction for Nominal Scott Domains
+Start: 10:30
+Author: S. Lösch
+Author: A. Pitts
+
+Talk: The Sequential Semantics of Producer Effect Systems
+Start: 11:00
+Author: R. Tate
+
+Talk: Copatterns: Programming Infinite Structures by Observations
+Start: 11:30
+Author: A. Abel
+Author: B. Pientka
+Author: D. Thibodeau
+Author: A. Setzer
+
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+			
+Session: The 2012 Microsoft Research Verified Software Milestone Award
+Start: 14:00
+
+Session: Types
+Chair: Benjamin Pierce
+Start: 14:30
+
+Talk: Automating Relatively Complete Verification of Higher-order Functional Programs
+Start: 14:30
+Author: H. Unno
+Author: T. Terauchi
+Author: N. Kobayashi
+
+Talk: Abstraction and Invariance for Algebraically Indexed Types
+Start: 15:00
+Author: R. Atkey
+Author: P. Johann
+Author: A. Kennedy
+			
+Talk: Static and Dynamic Semantics of NoSQL Languages
+Start: 15:30
+Author: V. Benzaken
+Author: G. Castagna
+Author: K. Nguyễn
+Author: J. Siméon
+
+Session: Break
+Start: 16:00
+
+Session: Semantics
+Chair: Eijiro Sumii
+Start: 16:30
+
+Talk: The lambda lambda-bar calculus: A dual calculus for unconstrained strategies
+Start: 16:30
+Author: A. Goyet
+
+Talk: The Geometry of Types
+Start: 17:00
+Author: U. Dal Lago
+Author: B. Petit
+
+Talk: Universal properties of impure programming languages
+Start: 17:30
+Author: S. Staton
+Author: P. Levy
+
+Session: Student Session
+Start: 18:00
+
+End: 19:00
+
+--- end of day
+
+Event: POPL Track A day #2
+Date: Jan 24, 2012
+Room: Fernandes
+
+Session: Most Influential POPL Paper Award
+Start: 08:50
+
+Session: Keynote
+Chair: Derek Dreyer
+Start: 09:00
+
+Talk: From Principles to Programming Languages (and Back)
+Start: 09:00
+Author: Shriram Krishnamurthi
+Affiliation: Brown U.
+
+Session: Break
+Start: 10:00
+		
+Session: Concurrency and Design
+Chair: Andreas Rossberg
+Start: 10:30
+
+Talk: Library Abstraction for C/C++ Concurrency
+Start: 10:30
+Author: M. Batty
+Author: M. Dodds
+Author: A. Gotsman
+			
+Talk: Fault Tolerance via Idempotence
+Start: 11:00
+Author: G. Ramalingam
+Author: K. Vaswani
+
+Talk: Deadlock-freedom-by-design: Multiparty Asynchronous Global Programming
+Start: 11:30
+Author: M. Carbone
+Author: F. Montesi
+			
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+	
+Session: Keynote
+Chair: Francesco Logozzo
+Start: 14:30
+
+Talk: How Languages Can Save Distributed Computing
+Start: 09:00
+Author: Andrew Myers
+Affiliation: Cornell U.
+
+Session: Break
+Start: 15:30
+
+Session: Concurrency
+Chair: Peter Sewell
+Start: 16:00
+
+Talk: Quantitative Relaxation of Concurrent Data Structures
+Start: 16:00
+Author: T. Henzinger
+Author: C. Kirsch
+Author: H. Payer
+Author: A. Sezgin
+Author: A. Sokolova
+	
+Talk: Plan B: A Buffered Memory Model for Java
+Start: 16:30
+Author: D. Demange
+Author: V. Laporte
+Author: L. Zhao
+Author: S. Jagannathan
+Author: D. Pichardie
+Author: J. Vitek
+
+Talk: Logical Relations for Fine-Grained Concurrency
+Start: 17:00
+Author: A. Turon
+Author: J. Thamsborg
+Author: A. Ahmed
+Author: L. Birkedal
+Author: D. Dreyer
+
+Session: Conference Chairs Report
+Start: 17:30
+
+Session: Business Meeting
+Start: 18:00
+
+Session: Social Dinner
+Room: Farnese+Torlonia
+Start: 20:00
+
+End: 23:00
+
+--- end of day
+
+Event: POPL Track A day #3
+Date: Jan 25, 2012
+Room: Fernandes
+
+Session: POPL2014 Preview
+Start: 08:50
+
+Session: Keynote
+Chair: Andy Gordon
+Start: 09:00
+
+Talk: The Principles and Practice of Probabilistic Programming
+Start: 09:00
+Author: Noah Goodman
+Affiliation: Stanford U.
+
+Session: Break
+Start: 10:00
+			
+Session: Models and Semantics
+Chair: Tobias Wrigstad
+Start: 10:30
+
+Talk: A Model-Learner Pattern for Bayesian Reasoning
+Start: 10:30
+Author: A. Gordon
+Author: M. Aizatulin
+Author: J. Borgstroem
+Author: G. Claret
+Author: T. Graepel
+Author: A. Nori
+Author: S. Rajamani
+Author: C. Russo
+			
+Talk: Hyperstream Processing Systems: Nonstandard Modeling of Continuous-Time Signals
+Start: 11:00
+Author: K. Suenaga
+Author: H. Sekine
+Author: I. Hasuo
+
+Talk: HALO: From Haskell to First-Order Logic through Denotational Semantics
+Start: 11:30
+Author: D. Vytiniotis
+Author: S. Jones
+Author: K. Claessen
+Author: D. Rosén
+			
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+
+Session: Keynote
+Chair: Roberto Giacobazzi
+Start: 14:00
+
+Talk: POPL in 1973, an idea whose time had come. An amarcord of POPL 1973
+Start: 14:00
+Author: Doug Mcllroy
+Affiliation: Dartmouth College
+	
+Talk: The 90th of Corrado Bohm by EATCS and SIGPLAN
+Start: 14:30
+Author: Mariangiola Dezani
+Affiliation: U. Torino
+
+Session: Compilation
+Chair: Manuel Fahndrich
+Start: 15:00
+
+Talk: Sub-Polyhedral Scheduling Using (Unit-)Two-Variable-Per-Inequality Polyhedra
+Start: 15:00
+Author: R. Upadrasta
+Author: A. Cohen
+			
+Talk: Optimizing Data Structures in High-Level Programs: New Directions for Extensible Compilers based on Staging
+Start: 15:30
+Author: T. Rompf
+Author: A. Sujeeth
+Author: N. Amin
+Author: K. Brown
+Author: V. Jovanovic
+Author: H. Lee
+Author: M. Jonalagedda
+Author: K. Olukotun
+Author: M. Odersky
+
+Talk: Principled Parsing for Indentation-Sensitive Languages
+Start: 16:00
+Author: M. Adams
+
+Session: Closing and Break
+Start: 17:00
+
+Session: Student Session
+Start: 17:30
+
+End: 19:00

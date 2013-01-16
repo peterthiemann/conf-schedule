@@ -1,0 +1,302 @@
+Event: POPL Track B day #1
+Date: Jan 23, 2012
+Room: Estensi+Gonzaga+Pallavicini
+
+Session: Welcome
+Room: Fernandes
+Start: 08:50
+
+Session: Keynote
+Room: Fernandes
+Chair: Manuel Hermenegildo
+Start: 09:00
+
+Talk: Engineering Mathematics: the Odd Order Theorem Proof
+Start: 09:00
+Author: Georges Gonthier
+Affiliation: Microsoft Research UK
+
+Session: Break
+Start: 10:00
+
+Session: Verification and Static Analysis
+Chair: Laurent Mauborgne
+Start: 10:30
+
+Talk: Cache and I/O Efficient Functional Algorithms
+Start: 10:30
+Author: G. Blelloch
+Author: R. Harper
+
+Talk: On the Linear Ranking Problem for Integer Linear-Constraint Loops
+Start: 11:00
+Author: A. Ben-Amram
+Author: S. Genaim
+
+Talk: Advanced Automata Minimization
+Start: 11:30
+Author: R. Mayr
+Author: L. Clemente
+
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+			
+Session: The 2012 Microsoft Research Verified Software Milestone Award
+Room: Fernandes
+Start: 14:00
+
+Session: Abstract Interpretation
+Chair: Francesco Ranzato
+Start: 14:30
+
+Talk: Quantitative Abstraction Refinement
+Start: 14:30
+Author: P. Cerny
+Author: T. Henzinger
+Author: A. Radhakrishna
+
+Talk: Inductive Data Flow Graphs
+Start: 15:00
+Author: A. Farzan
+Author: Z. Kincaid
+Author: A. Podelski
+			
+Talk: Abstract Conflict Driven Learning
+Start: 15:30
+Author: V. D'Silva
+Author: L. Haller
+Author: D. Kroening
+
+Session: Break
+Start: 16:00
+
+Session: Proofs & Verification
+Chair: Xavier Leroy
+Start: 16:30
+
+Talk: The Power of Parameterization in Coinductive Proof
+Start: 16:30
+Author: C. Hur
+Author: G. Neis
+Author: D. Dreyer
+Author: V. Vafeiadis
+
+Talk: Meta-Theory a la Carte
+Start: 17:00
+Author: B. Delaware
+Author: B. Oliveira
+Author: T. Schrijvers
+
+Talk: A Theorem Prover for Boolean BI
+Start: 17:30
+Author: J. Park
+Author: J. Seo
+Author: S. Park
+
+Session: Student Session
+Start: 18:00
+
+End: 19:00
+
+--- end of day
+
+Event: POPL Track B day #2
+Date: Jan 24, 2012
+Room: Estensi+Gonzaga+Pallavicini
+
+Session: Most Influential POPL Paper Award
+Room: Fernandes
+Start: 08:50
+
+Session: Keynote
+Room: Fernandes
+Chair: Derek Dreyer
+Start: 09:00
+
+Talk: From Principles to Programming Languages (and Back)
+Start: 09:00
+Author: Shriram Krishnamurthi
+Affiliation: Brown U.
+
+Session: Break
+Start: 10:00
+
+Session: Separation Logic
+Chair: David Walker
+Start: 10:30
+
+Talk: The Type Discipline of Behavioral Separation
+Start: 10:30
+Author: L. Caires
+Author: J. Seco
+			
+Talk: Views: Compositional Reasoning for Concurrent Programs
+Start: 11:00
+Author: T. Dinsdale-Young
+Author: L. Birkedal
+Author: P. Gardner
+Author: M. Parkinson
+Author: H. Yang
+
+Talk: High-level Separation Logic for Low-Level Code
+Start: 11:30
+Author: J. Jensen
+Author:  N. Benton
+Author: A. Kennedy
+			
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+	
+Session: Keynote
+Room: Fernandes
+Chair: Francesco Logozzo
+Start: 14:30
+
+Talk: How Languages Can Save Distributed Computing
+Start: 09:00
+Author: Andrew Myers
+Affiliation: Cornell U.
+
+Session: Break
+Start: 15:30
+
+Session: Security
+Chair: Kwang Yi
+Start: 16:00
+
+Talk: Linear Dependent Types for Differential Privacy
+Start: 16:00
+Author: M. Gaboardi
+Author: A. Haeberlen
+Author: J. Hsu
+Author: A. Narayan
+Author: B. Pierce
+	
+Talk: Fully Abstract Compilation to JavaScript
+Start: 16:30
+Author: C. Fournet
+Author: N. Swamy
+Author: J. Chen
+Author: P. Dagand
+Author: P. Strub
+Author: B. Livshits
+
+Talk: Towards Fully Automatic Placement of Security Sanitizers and Declassifiers
+Start: 17:00
+Author: B. Livshits
+Author: S. Chong
+
+Session: Conference Chairs Report
+Room: Fernandes
+Start: 17:30
+
+Session: Business Meeting
+Room: Fernandes
+Start: 18:00
+
+Session: Social Dinner
+Room: Farnese+Torlonia
+Start: 20:00
+
+End: 23:00
+
+--- end of day
+
+Event: POPL Track B day #3
+Date: Jan 25, 2012
+Room: Estensi+Gonzaga+Pallavicini
+
+Session: POPL2014 Preview
+Room: Fernandes
+Start: 08:50
+
+Session: Keynote
+Room: Fernandes
+Chair: Andy Gordon
+Start: 09:00
+
+Talk: The Principles and Practice of Probabilistic Programming
+Start: 09:00
+Author: Noah Goodman
+Affiliation: Stanford U.
+
+Session: Break
+Start: 10:00
+
+Session: Synthesis and Verification
+Chair: Josh Berdine
+Start: 10:30
+
+Talk: Sigma*: Symbolic Learning of Stream Filters
+Start: 10:30
+Author: M. Botincan
+Author: D. Babic
+			
+Talk: Checking NFA equivalence with bisimulations up to congruence
+Start: 11:00
+Author: F. Bonchi
+Author: D. Pous
+
+Talk: Synthesis of Biological Models from Mutation Experiments
+Start: 11:30
+Author: A. Köksal
+Author: Y. Pu
+Author: S. Srivastava
+Author: R. Bodík
+Author: J. Fisher
+Author: N. Piterman
+			
+Session: Lunch
+Room: Farnese+Torlonia
+Start: 12:30
+
+Session: Keynote
+Room: Fernandes
+Chair: Roberto Giacobazzi
+Start: 14:00
+
+Talk: POPL in 1973, an idea whose time had come. An amarcord of POPL 1973
+Start: 14:00
+Author: Doug Mcllroy
+Affiliation: Dartmouth College
+	
+Talk: The 90th of Corrado Bohm by EATCS and SIGPLAN
+Start: 14:30
+Author: Mariangiola Dezani
+Affiliation: U. Torino
+
+Session: Analysis and Logics
+Chair: Eric Koskinen
+Start: 15:00
+
+Talk: The Ramifications of Sharing in Data Structures
+Start: 15:00
+Author: A. Hobor
+Author: J. Villard
+			
+Talk: Complete Instantiation-Based Interpolation
+Start: 15:30
+Author: N. Totla
+Author: T. Wies
+
+Talk: Automatic Detection of Floating-Point Exceptions
+Start: 16:00
+Author: E. Barr
+Author: T. Vo
+Author: V. Le
+Author: Z. Su
+
+Talk: Subjective Auxiliary State for Coarse-Grained Concurrency
+Start: 16:30
+Author: R. Ley-Wild
+Author: A. Nanevski
+
+Session: Closing and Break
+Start: 17:00
+
+Session: Student Session
+Start: 17:30
+
+End: 19:00
