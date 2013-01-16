@@ -72,7 +72,10 @@ affiliationLine :: Parser String
 affiliationLine = keyLine "Affiliation"
 
 talkLine :: Parser String
-talkLine = keyLine "Talk"
+talkLine =
+  keyLine "Talk"
+  <|>
+  keyLine "Title"
 
 chairLine :: Parser String
 chairLine = keyLine "Chair"
