@@ -102,16 +102,15 @@ kvLine kw p =
   (lexeme (pToken kw) *> lexeme (pSym ':') *> p <* pEOL)
   <* pMany (commentLine <|> emptyLine)
 
+newCommentLine :: Parser String
+newCommentLine =
+  pNotRanges [('\n', '\n'), ('a', 'z'), ('A', 'Z')] *> munchToEOL <* pEOL
+
 commentLine :: Parser String
 commentLine =
-  inlineSpaces *> pSym '-' *> pSym '-' *> pMany (pSym '-') *> munchToEOL <* pEOL
+  inlineSpaces *> pSym '-' *> pSym '-' *> munchToEOL <* pEOL
 
 emptyLine :: Parser String
 emptyLine =
   inlineSpaces <* pEOL
-
-ex0 = "Event: ICFP day #1\n"
-ex1 = "Event: ICFP day #1\nDate: Sep 10, 2012\n"
-ex2 = "-- a comment line\n"
-ex3 = "   -- a comment line\n"
 

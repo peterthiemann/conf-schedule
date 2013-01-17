@@ -64,6 +64,18 @@ pDigitRange l h =
 
 pNDigitInt n = (read :: String -> Int) <$> pExact n pDigit
 
+pNotRange :: (Char, Char) -> Parser Char
+pNotRange (low, high) =
+  pSatisfy (\ t -> t < low || high < t) (Insertion "Not in range" (pred low) 5)
+
+pNotRanges :: [(Char, Char)] -> Parser Char
+pNotRanges ranges =
+  pSatisfy (g ranges) (Insertion "Not in ranges" (pred (fst (head ranges))) 5)
+  where
+  g [] t = True
+  g ((low, high) : ranges) t = not (low <= t && t <= high) && g ranges t
+
+
 -- | Testing
 run :: Show t => Parser t -> String -> String
 run p inp = 
