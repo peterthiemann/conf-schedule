@@ -1,0 +1,236 @@
+Event: PEPM day #1
+Date: Jan 21, 2013
+Room: Medici 
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+Session: Invited Speaker
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Practical Aspects of Bidirectional Graph Transformations 
+Start: 09:00
+Author: Zhenjiang Hu
+Affiliation: National Institute of Informatics (NII)
+
+Session: Break
+Start: 10:00
+
+Session: 1
+Chair: Samir Genaim
+Start: 10:30
+
+Talk: Security Type Error Diagnosis for Higher-Order, Polymorphic Languages 
+Start: 10:30
+Author: Jeroen Weijers
+Author: Jurriaan Hage
+Author: Stefan Holdermans
+--Affiliation:
+
+Talk: Deriving a Complete Type Inference for Hindley-Milner and Vector Sizes using Expansion 
+Start: 11:00
+Author: Axel Simon
+--Affiliation: 
+
+Talk: Typing as Functional-Logic Evaluation 
+Start: 11:30
+Author: Francisco Javier López-Fraguas 
+Author: Enrique Martin-Martin
+--Affiliation: 
+
+Talk: Precise Explanation of Success Typing Errors 
+Start: 12:00
+Author: Kostis Sagonas
+Author: Josep Silva
+Author: Salvador Tamarit
+--Affiliation: 
+
+Session: Lunch
+Start: 12:30
+
+-----
+
+
+Session: 2
+Chair: Jeremy Siek 
+Start: 14:30
+
+
+Talk: Verifying Programs via Iterated Specialization 
+Start:  14:30
+Author: Emanuele De Angelis
+Author: Fabio Fioravanti
+Author: Alberto Pettorossi 
+Author: Maurizio Proietti
+
+
+Talk: Towards a Scalable Software Model Checker for Higher-Order Programs 
+Start: 15:00
+Author: Ryosuke Sato  
+Author: Hiroshi Unno
+Author: Naoki Kobayashi 
+
+
+Talk: Verified Integrity Properties for Safe Approximate Program Transformations 
+Start: 15:30
+Author: Michael Carbin
+Author: Deokhwan Kim
+Author: Sasa Misailovic 
+Author: Martin Rinard
+
+Session: Break
+Start: 16:00
+
+Session: 3
+Chair: Bruno Oliveira 
+Start: 16:30
+
+Talk: TRSynth: a Tool for Automatic Inference of Term Equivalence in Left-linear Term Rewriting Systems
+Start:  16:30
+Author: Marco Comini
+Author: Luca Torella 
+
+Talk: Traceability and Correctness of EDSL Abstractions 
+Start: 17:00
+Author: Martin Sulzmann
+Author: Jürgen Nicklisch 
+Author: Axel Zechner
+
+End: 17:30
+
+
+Event: PEPM day #2
+Date: Jan 22, 2013
+Room: Medici 
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+
+Session: Invited Speaker
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: Partially Static Operations 
+Start: 09:00
+Author: Peter Thiemann
+Affiliation: Universität Freiburg
+
+
+Session: Break
+Start: 10:00
+
+Session: 4
+Chair: Kazutaka Matsuda 
+Start: 10:30
+
+
+Talk: Just Do It While Compiling!: Fast Extensible Records in Haskell
+Start: 10:30
+Author: Bruno Martinez
+Author: Marcos Viera
+Author: Alberto Pardo
+
+
+Talk: Abstract Syntax Graphs for Domain Specific Languages
+Start: 11:00
+Author: Bruno Oliveira
+Author: Andres Loh
+
+
+Talk: Fixing Idioms - A Recursion Primitive for Applicative DSLs
+Start: 11:30
+Author: Dominique Devriese
+Author: Ilya Sergey
+Author: Dave Clarke
+Author: Frank Piessens
+
+
+Talk: A Syntactic and Functional Correspondence between Reduction Semantics and Reduction-Free Full Normalisers 
+Start: 12:00
+Author: Álvaro García-Pérez
+Author: Pablo Nogueira
+
+
+Session: Lunch
+Start: 12:30
+
+-----
+
+
+Session: 5
+Chair: Roberto Giacobazzi 
+Start: 14:30
+
+
+Talk: A Meta-Circular Language for Active Libraries
+Start: 14:30
+Author: Marco Servetto
+Author: Elena Zucca
+
+
+Talk: Automatic Inference of Specifications using Matching Logic
+Start: 15:00
+Author:  María Alpuente
+Author: Marco A. Feliú
+Author: Alicia Villanueva
+
+Talk: Constraint-Based Locality Analysis for X10 Programs 
+Start: 15:30
+Author: Qiang Sun
+Author: Yuting Chen 
+Author: Jianjun Zhao
+
+
+Session: Break
+Start: 16:00
+
+Session: 6
+Chair: Jurriaan Hage 
+Start: 16:30
+
+
+Talk: Shonan Challenge for Generative Programming 
+Start: 16:30 
+Author: Baris Aktemur
+Author: Yukiyoshi Kameyama
+Author: Oleg Kiselyov
+Author:  Chung‐chieh Shan
+
+Session: Closing
+Start: 17:00
+
+-- everything after end is ignored
+End: 17:15
+
