@@ -1,0 +1,93 @@
+Event: Programming Languages meets Program Verification
+Date: Jan 22, 2013
+Room: Gonzaga
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+
+Session: Session 1: Verification of Programming Languages
+Chair: Andreas Abel
+Start: 9:00
+
+Talk: Modular Type-Safety Proofs in Agda 
+Start: 9:00
+Author: Christopher Schwaab
+Author: Jeremy Siek 
+
+Talk: Compiling Contextual Objects: Bringing Higher-Order Abstract Syntax to Programmers
+Start: 9:30  
+Author: Francisco Ferreira
+Author: Brigitte Pientka
+Author: Stefan Monnier 
+
+Session: Break
+Start: 10:00
+
+Session: Session 2: Invited talk on Dependently Typed Programming
+Chair: Tim Sheard
+Start: 10:30
+
+
+Talk: Idris: General Purpose Programming with Dependent Types (Abstract)
+Start: 10:30
+Author: Edwin Brady
+Affiliation: University of St. Andrews, Scotland
+
+Session: Lunch
+Start: 12:00
+
+Session: Session 3: Complexity and Security
+Chair: Chung-Kil Hur
+Start: 14:30
+
+Talk: A Static Cost Analysis for a Higher-Order Language
+Start: 14:30
+Author: Norman Danner
+Author: Jennifer Paykin
+Author: James Royer
+
+Talk: Towards Formal Verification of TLS Network Packet Processing in C
+Start: 15:00
+Author: Reynald Affeldt
+Author: Nicolas Marti
+
+Talk: Automated Analysis of Rule-Based Access Control Policie
+Start: 15:30
+Author: Clara Bertolissi
+Author: Worachet Uttha
+
+Session: Coffee
+Start: 16:00
+
+Session: Session 4: Functional Reactive Programming
+Chair: Brigitte Pientka
+Start: 16:30
+
+Talk: Causality For Free!  Parametricity Implies Causality for Functional Reactive Programs
+Start: 16:30
+Author: Alan Jeffrey
+
+Talk: Temporal Logic with "Until": Functional Reactive Programming with Processes and Concrete Process Categories
+Start: 17:00
+Author: Wolfgang Jeltsch 
+
+Session: End
+Start: 17:30
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:45
+
