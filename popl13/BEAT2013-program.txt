@@ -1,0 +1,86 @@
+Event: BEAT'12
+Date: Jan 22, 2013
+Room: Pallavicini
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session talk*)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+
+Session: First session
+Chair: Hans Hüttel
+Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+Talk: A Calculus for Constraint-Based Flow Typing
+Start: 09:00
+Author: David Pearce
+
+Talk: Inference of Global Progress Properties for Dynamically Interleaved Multiparty Sessions
+Start: 09:30
+Author: Mario Coppo
+Author: Mariangiola Dezani-Ciancaglini
+Author: Luca Padovani
+Author: Nobuko Yoshida
+
+Session: Break
+Start: 10:00
+
+Session: Second session
+Chair: Simon Gay
+Start: 10:30
+
+Talk: RSVP: Live Sessions with Responses
+Start: 10:30
+Author: Thomas Hildebrandt
+Author: Marco Carbone
+Author: Tijs Slaats
+--Affiliation:
+
+Talk: Behavioral Type Systems for Program Analysis: A Tutorial
+Start: 11:15
+Author: Naoki Kobayashi
+--Affiliation: 
+
+Session: Lunch
+Start: 12:00
+
+Session: Third Session
+Chair: Mario Bravetti
+Start: 14:30
+
+Talk: Honesty by Typing
+Start: 14:30
+Author: Massimo Bartoletti
+Author: Alceste Scalas
+Author: Emilio Tuosto
+Author: Roberto Zunino
+--Affiliation: 
+
+Talk: Linearity and Affinity in Refined Session Types (in memory of Kohei Honda)
+Start: 15:00
+Author: Vasco T. Vasconcelos
+--Affiliation: 
+
+Talk: Towards Combinatory Logic Synthesis
+Start: 15:30
+Author: Jakob Rehof
+--Affiliation: 
+
+-- records omitted
+
+-- everything after end is ignored
+End: 16:00
