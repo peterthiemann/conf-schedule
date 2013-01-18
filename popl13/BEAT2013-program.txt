@@ -75,12 +75,19 @@ Start: 15:00
 Author: Vasco T. Vasconcelos
 --Affiliation: 
 
+Session: Coffee break
+Start: 16:00
+
+Session: Fourth Session
+Chair: Mariangiola Dezani-Ciancaglini
+Start: 16:30
+
 Talk: Towards Combinatory Logic Synthesis
-Start: 15:30
+Start: 16:30
 Author: Jakob Rehof
 --Affiliation: 
 
 -- records omitted
 
 -- everything after end is ignored
-End: 16:00
+End: 17:15
