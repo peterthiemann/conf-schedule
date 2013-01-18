@@ -28,7 +28,7 @@ Start: 09:00
 -- required author(s)
 -- required affiliation(s)
 -- regexp: talk start (author+ affiliation)+
-Talk: TBA
+Talk: Program Logic and Analysis Demystified
 Start: 09:00
 Author: Peter O'Hearn
 URL: http://www0.cs.ucl.ac.uk/staff/p.ohearn/
@@ -47,7 +47,7 @@ Session: Session 2
 Chair: Alan Schmitt (INRIA, France)
 Start: 10:30
 
-Title: TBA
+Title: Programming languages and software verification (or: Theorem provers are a P.L. researcher's best friends)
 Start: 10:30
 Author: Xavier Leroy
 URL: http://pauillac.inria.fr/~xleroy/
