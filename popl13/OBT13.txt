@@ -1,0 +1,122 @@
+Event: OBT
+Date: Jan 26, 2013
+Room: Medici
+
+Session: Welcome
+Start: 9:00
+
+Session: Session 1
+Chair: Ranjit Jhala
+Start: 9:05
+
+Talk: Probabilistic Programming
+Start: 9:05
+Author:  Andrew Gordon
+Affiliation: MSR
+
+Session: Break
+Start: 10:00
+
+Session: Session 2
+Chair: Peter Thiemann
+Start: 10:30
+
+Talk: Tilting at Windmills (L)
+Start: 10:30
+Author: Suresh Jagannathan
+Author: Jan Vitek
+Affiliation: Purdue
+
+Talk: Traité de lutherie, informatisé (L)
+Start: 10:50
+Author: Harry Mairson
+Affiliation: Brandeis
+
+Talk: Increasing Human Compiler Interaction (L)
+Start: 11:10
+Author: Thomas Ball
+Author: Peli de Halleux
+Author: Daan Leijen
+Author: Nikhil Swamy
+Affiliation: MSR
+
+Session: Session 3
+Chair: Peter Thiemann
+Start: 11:30
+
+Talk: VisualizeSLE: A Visual Editor for Separation Logic Entailments (S)
+Start: 11:30 
+Author: Aquinas Hobor
+Author: Lin Myat Soe
+Author: Bimlesh Wadhwa
+Affiliation: NUS
+
+Talk: Probabilistic Inference Using Program Analysis (S)
+Start: 11:40
+Author: Andy Gordon
+Author: Aditya Nori
+Author: Sriram Rajamani
+Affiliation:  MSR
+
+Talk: Language Support for Efficient Dynamic Computation (S)
+Start: 11:50
+Author: Umut Acar
+Author: Ezgi Cicek
+Author: Deepak Garg
+Affiliation: CMU & MPI-SWS
+
+Session: Lunch
+Start: 12:00
+
+Session: Session 4
+Chair: David Walker
+Start: 14:30
+
+Talk: Making proof-based verified computation almost practical: progress and next steps
+Start: 14:30
+Author: Michael Walfish
+Affiliation: UT Austin
+
+Session: Session 5
+Chair: Saurabh Srivastava
+Start: 15:20
+
+Talk: Migration to the Cloud made Safe and Secure (S)
+Start: 15:20
+Author: Ken Eguro
+Author: Kaushik Rajan
+Author: Ravi Ramamurthy
+Author: Kapil Vaswani
+Author: Ramarathnam Venkatesan
+Affiliation: MSR
+
+Talk: Crossing the Software-Hardware Chasm With DSLs (L)
+Start: 15:30
+Author: Arvind Sujeeth et al.
+Affiliation: Stanford & EPFL
+
+Talk: Tempo Support in Programming Languages (S)
+Start: 15:50
+Author: Yu David Liu
+Affiliation: SUNY Binghamton
+
+Session: Break
+Start: 16:00
+
+Session: Session 6
+Chair: Kathleen Fisher
+Start: 16:30
+
+Talk: Biochemistry as a Programming Language (L)
+Start: 16:30
+Author: Saurabh Srivastava et al.
+Affiliation: UC Berkeley
+
+Talk: Fast Analysis of Biological Models Using Open-World Logic Programming (L)
+Start: 16:50
+Author: Benjamin Hall
+Author: Ethan Jackson
+Author: Jasmin Fisher
+Affiliation: MSR
+
+End: 17:10
